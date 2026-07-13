@@ -845,3 +845,142 @@ MURAL
     font-size:16px;
 
 }
+
+@media(max-width:768px){
+
+    /* GERAL */
+    body{
+        overflow-x:hidden;
+    }
+
+    /* NOTÍCIAS */
+    .grid-noticias{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .noticia-destaque img{
+        width:100%;
+        height:250px;
+    }
+
+    .conteudo{
+        padding:20px;
+    }
+
+    .conteudo h2{
+        font-size:28px;
+    }
+
+
+    /* NOTÍCIAS LATERAIS */
+    .noticias-laterais article{
+        flex-direction:column;
+    }
+
+    .noticias-laterais img{
+        width:100%;
+        height:200px;
+    }
+
+    .noticias-laterais h3{
+        font-size:18px;
+    }
+
+
+    /* GALERIA */
+    .galeria-grid{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .album{
+        height:250px;
+    }
+
+    .overlay{
+        padding:20px;
+    }
+
+    .overlay h3{
+        font-size:24px;
+    }
+
+
+    /* EVENTOS */
+    .eventos-grid{
+        grid-template-columns:1fr;
+    }
+
+
+    /* MATÉRIA PRINCIPAL */
+    .manchete{
+        grid-template-columns:1fr;
+        gap:0;
+    }
+
+    .texto{
+        padding:25px;
+    }
+
+    .texto h1{
+        font-size:34px;
+    }
+
+    .imagem{
+        height:300px;
+    }
+
+
+    /* CARROSSEL */
+    .carousel-card{
+        display:flex;
+        flex-direction:column;
+        padding:20px;
+        gap:15px;
+    }
+
+    .carousel-card img{
+        width:220px;
+        height:220px;
+        border-radius:15px;
+    }
+
+    .carousel-info{
+        padding:10px;
+        text-align:center;
+    }
+
+    .carousel-info h2{
+        font-size:28px;
+    }
+
+
+    /* CLASSIFICADOS */
+    .classificado-card{
+        width:100%;
+    }
+
+    .classificado-conteudo{
+        padding:20px;
+    }
+
+    .classificado-conteudo h3{
+        font-size:25px;
+    }
+
+    .classificado-conteudo p{
+        font-size:17px;
+    }
+
+
+    /* MURAL */
+    .mural-grid{
+        grid-template-columns:1fr;
+    }
+
+    .mural-card{
+        padding:20px;
+    }
+
+}
