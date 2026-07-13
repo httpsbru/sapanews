@@ -7,6 +7,13 @@ const noticias = [
     },   
 
     {
+    titulo:"🔥 EXCLUSIVO: Integrante do Sapacrew recebe convite inesperado para um menage.",
+    texto:"A redação teve acesso à informação de que uma integrante do grupo recebeu um convite para participar de um Menage. A identidade das pessoas envolvidas segue sob absoluto sigilo, mas fontes garantem que a conversa realmente aconteceu. Os comentários nos bastidores já começaram.",
+    imagem:"img/noticias/menage.jpg",
+    categoria:"🚨 EXCLUSIVO"
+    },
+
+    {
         titulo: "💔 Oficializado! Lethicia pede término do trisal.",
         texto: "Segundo fontes extremamente confiáveis da redação da Sapacrew, Lethicia afirmou que não aguenta mais ser a marmita oficial do relacionamento.",
         imagem: "img/noticias/lethicia.jpeg",
