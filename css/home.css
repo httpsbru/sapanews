@@ -599,21 +599,17 @@ MATÉRIA PRINCIPAL
     display:grid;
     grid-template-columns:320px 1fr;
     gap:30px;
-
     align-items:center;
-
     padding:30px;
-
     background:#fff;
     border-radius:24px;
 }
 
 .carousel-card img{
-
     width:320px;
     height:320px;
-
-    object-fit:contain;
+    object-fit:cover;
+    border-radius:20px;
 }
 
 
