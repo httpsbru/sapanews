@@ -1,3 +1,11 @@
+*{
+    box-sizing:border-box;
+}
+
+img{
+    max-width:100%;
+}
+
 .noticias{
 
 background:#faf7f2;
@@ -624,7 +632,7 @@ MATÉRIA PRINCIPAL
 
     justify-content:flex-start;
 
-    padding:50px;
+    
 
     gap:18px;
 

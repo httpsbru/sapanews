@@ -1,0 +1,97 @@
+/* ===========================
+   MOBILE - AJUSTE LOGO HERO
+=========================== */
+
+@media(max-width:768px){
+
+    .hero-content{
+        flex-direction:column;
+        gap:30px;
+        text-align:center;
+    }
+
+
+    .logo{
+        width:300px;
+        height:180px;
+        margin:auto;
+    }
+
+
+    .sapa{
+        font-size:75px;
+        -webkit-text-stroke:3px #111;
+    }
+
+
+    .news{
+        top:20px;
+        right:0;
+        padding:8px 15px;
+        font-size:14px;
+    }
+
+
+    .crew{
+        left:190px;
+        top:75px;
+        width:120px;
+        height:120px;
+    }
+
+
+    .crew span{
+        font-size:40px;
+        -webkit-text-stroke:2px #111;
+    }
+
+
+    .c{
+        left:0;
+        top:0;
+    }
+
+    .r{
+        left:20px;
+        top:30px;
+    }
+
+    .e{
+        left:45px;
+        top:60px;
+    }
+
+    .w{
+        left:75px;
+        top:90px;
+    }
+
+
+    .hero-info h2{
+        font-size:32px;
+    }
+
+
+    .hero p{
+        font-size:17px;
+    }
+
+}
+
+@media(max-width:768px){
+
+    nav{
+        height:auto;
+        padding:20px 0;
+        flex-direction:column;
+        gap:20px;
+    }
+
+
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+}
