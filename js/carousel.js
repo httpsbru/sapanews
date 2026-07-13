@@ -1,5 +1,12 @@
 const noticias = [
     {
+        titulo:"✈️ Delegação carioca desembarca em São Paulo.",
+        texto: "Milly chega para alguns dias em São Paulo. A redação confirma movimentação intensa, expectativa para os rolês e aumento de risadas por metro quadrado.",
+        imagem: "img/noticias/milly.jpg",
+        categoria:"✈️ EDIÇÃO ESPECIAL"
+    },   
+
+    {
         titulo: "💔 Oficializado! Lethicia pede término do trisal.",
         texto: "Segundo fontes extremamente confiáveis da redação da Sapacrew, Lethicia afirmou que não aguenta mais ser a marmita oficial do relacionamento.",
         imagem: "img/noticias/lethicia.jpeg",
@@ -31,7 +38,7 @@ const categoria = document.getElementById("carousel-tag");
 
 const dots = document.querySelectorAll(".dot");
 
-function trocarNoticia(indice){
+function trocarNoticia(indice) {
 
     noticiaAtual = indice;
 
@@ -46,9 +53,9 @@ function trocarNoticia(indice){
 
 }
 
-dots.forEach((dot, indice)=>{
+dots.forEach((dot, indice) => {
 
-    dot.addEventListener("click", ()=>{
+    dot.addEventListener("click", () => {
 
         trocarNoticia(indice);
 
@@ -56,11 +63,11 @@ dots.forEach((dot, indice)=>{
 
 });
 
-setInterval(()=>{
+setInterval(() => {
 
     noticiaAtual++;
 
-    if(noticiaAtual >= noticias.length){
+    if (noticiaAtual >= noticias.length) {
 
         noticiaAtual = 0;
 
@@ -68,4 +75,6 @@ setInterval(()=>{
 
     trocarNoticia(noticiaAtual);
 
-},5000);
+}, 5000);
+
+trocarNoticia(0);

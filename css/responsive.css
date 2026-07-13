@@ -95,3 +95,37 @@
     }
 
 }
+
+@media(max-width:768px){
+
+    .urgente-card{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .urgente-img{
+
+        height:280px;
+
+    }
+
+    .urgente-texto{
+
+        padding:20px;
+
+    }
+
+    .urgente-texto h2{
+
+        font-size:30px;
+
+    }
+
+    .subtitulo{
+
+        font-size:17px;
+
+    }
+
+}
