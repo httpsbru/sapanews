@@ -129,3 +129,280 @@
     }
 
 }
+
+/*==================================================
+GALERIA.HTML
+==================================================*/
+
+@media (max-width: 768px){
+
+    .hero-galeria{
+
+        padding:60px 0;
+
+    }
+
+    .hero-galeria h1{
+
+        font-size:38px;
+
+    }
+
+    .hero-galeria p{
+
+        font-size:18px;
+
+        width:95%;
+
+        margin:auto;
+
+    }
+
+    .albuns{
+
+        padding:50px 0;
+
+    }
+
+    .albuns h2{
+
+        font-size:34px;
+
+        text-align:center;
+
+    }
+
+    .albuns-grid{
+
+        grid-template-columns:1fr;
+
+        gap:25px;
+
+    }
+
+    .album-card img{
+
+        height:220px;
+
+    }
+
+    .album-info{
+
+        padding:20px;
+
+    }
+
+    .album-info h3{
+
+        font-size:26px;
+
+    }
+
+}
+
+
+/*==================================================
+GALERIA ARRAIÁ
+==================================================*/
+
+@media (max-width:768px){
+
+    .hero-evento{
+
+        padding:60px 0;
+
+    }
+
+    .hero-evento h1{
+
+        font-size:36px;
+
+    }
+
+    .hero-evento p{
+
+        width:95%;
+
+        margin:auto;
+
+        font-size:18px;
+
+    }
+
+    .info-grid{
+
+        grid-template-columns:1fr;
+
+        gap:20px;
+
+    }
+
+    .info-grid div{
+
+        padding:22px;
+
+    }
+
+    .texto-evento{
+
+        padding:50px 0;
+
+    }
+
+    .texto-evento h2{
+
+        font-size:32px;
+
+        text-align:center;
+
+    }
+
+    .texto-evento p{
+
+        font-size:17px;
+
+        line-height:1.8;
+
+    }
+
+    .grid-fotos{
+
+        grid-template-columns:1fr;
+
+        gap:15px;
+
+    }
+
+    .destaque{
+
+        grid-column:auto;
+
+        height:250px;
+
+    }
+
+    .foto{
+
+        height:230px !important;
+
+    }
+
+}
+
+
+/*==================================================
+LIGHTBOX
+==================================================*/
+
+@media(max-width:768px){
+
+    .lightbox{
+
+        padding:20px;
+
+    }
+
+    .lightbox img{
+
+        max-width:100%;
+
+        max-height:75vh;
+
+    }
+
+    .anterior,
+    .proxima{
+
+        width:45px;
+
+        height:45px;
+
+        font-size:22px;
+
+    }
+
+    .anterior{
+
+        left:10px;
+
+    }
+
+    .proxima{
+
+        right:10px;
+
+    }
+
+    .fechar{
+
+        top:15px;
+
+        right:20px;
+
+        font-size:36px;
+
+    }
+
+}
+
+/*======================================
+MENU RESPONSIVO
+======================================*/
+
+@media(max-width:900px){
+
+    nav{
+
+        position:relative;
+
+    }
+
+    .menu-mobile{
+
+        display:block;
+
+    }
+
+    nav ul{
+
+        position:absolute;
+
+        top:90px;
+
+        left:0;
+
+        width:100%;
+
+        background:#111;
+
+        display:none;
+
+        flex-direction:column;
+
+        gap:0;
+
+        box-shadow:0 15px 25px rgba(0,0,0,.2);
+
+    }
+
+    nav ul.ativo{
+
+        display:flex;
+
+    }
+
+    nav li{
+
+        border-top:1px solid rgba(255,255,255,.08);
+
+    }
+
+    nav li a{
+
+        display:block;
+
+        padding:20px;
+
+    }
+
+}
