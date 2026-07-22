@@ -324,6 +324,7 @@ URGENTE
     height:100%;
 
     object-fit:cover;
+    object-position: 40% 20%;
 
     transition:.6s;
 
