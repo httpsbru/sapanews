@@ -7,33 +7,19 @@ const noticias = [
     },   
 
     {
-    titulo:"🔥 EXCLUSIVO: Integrante do Sapacrew recebe convite inesperado para um menage.",
-    texto:"A redação teve acesso à informação de que uma integrante do grupo recebeu um convite para participar de um Menage. A identidade das pessoas envolvidas segue sob absoluto sigilo, mas fontes garantem que a conversa realmente aconteceu. Os comentários nos bastidores já começaram.",
-    imagem:"img/noticias/menage.jpg",
-    categoria:"🚨 EXCLUSIVO"
+        titulo:"🍷 EXCLUSIVO: Exigência de vinho provoca crise diplomática entre Juliana e Lethícia.",
+        texto:"Fontes da redação revelam que Juliana condicionou um encontro à presença de uma garrafa de vinho. O detalhe é que o pedido foi feito em um horário pouco favorável para a missão, levantando suspeitas de que a exigência teria sido uma estratégia para inviabilizar a visita. A investigação segue em andamento.",
+        imagem:"img/noticias/vinho.png",
+        categoria:"🚨 EXCLUSIVO"
     },
 
     {
-        titulo: "💔 Oficializado! Lethicia pede término do trisal.",
-        texto: "Segundo fontes extremamente confiáveis da redação da Sapacrew, Lethicia afirmou que não aguenta mais ser a marmita oficial do relacionamento.",
-        imagem: "img/noticias/lethicia.jpeg",
-        categoria: "🚨 EXCLUSIVO"
+        titulo:"🔥 EXCLUSIVO: ",
+        texto:"",
+        imagem:"img/noticias/menage.jpg",
+        categoria:"🚨 EXCLUSIVO"
     },
 
-    {
-        titulo: "👠 Absurdo! Júlia Viana é obrigada a usar salto alto na empresa.",
-        texto: "A redação recebeu denúncias de que a colaboradora precisará enfrentar a jornada de trabalho utilizando salto alto. Especialistas classificaram o caso como 'desumano'.",
-        imagem: "img/noticias/julia.jpeg",
-        categoria: "😱 ABSURDO"
-    },
-
-    {
-        titulo: "❤️ Taís consegue finalmente sua aprovação para seu relacionamento de 1 mês.",
-        texto: "Após um rigoroso período de avaliação da Sapacrew, o namoro foi oficialmente aprovado pelas integrantes do grupo.",
-        imagem: "img/noticias/tais.jpg",
-        categoria: "🎉 FELICIDADES",
-        posicao: "center 15%"
-    }
 ];
 
 let noticiaAtual = 0;
