@@ -13,12 +13,6 @@ const noticias = [
         categoria:"🚨 EXCLUSIVO"
     },
 
-    {
-        titulo:"🔥 EXCLUSIVO: ",
-        texto:"",
-        imagem:"img/noticias/menage.jpg",
-        categoria:"🚨 EXCLUSIVO"
-    },
 
 ];
 
