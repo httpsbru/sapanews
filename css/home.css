@@ -1278,6 +1278,14 @@ MURAL
     .carousel-info{
         padding:10px;
         text-align:center;
+        max-width: 650px;
+    }
+
+    .carousel-info p{
+        white-space: pre-line;
+        line-height: 1.8;
+        color: #555;
+    
     }
 
     .carousel-info h2{
