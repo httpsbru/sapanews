@@ -8,14 +8,14 @@ const noticias = [
 
     {
         titulo:"🚨 MAIS UM CASAL OFICIALIZADO ",
-        texto: "Depois da famosa tour do vinho, parece que a história entre Lethícia e Juliana ganhou novos capítulos. As duas estão ficando e, ao que tudo indica, o envolvimento está ficando cada vez mais sério. 💕 Entre encontros, conversas e muito carinho, o que era apenas uma aproximação agora já tem nome: paixão. O Sapanews deseja que venha aí mais um casal para a nossa lista. 👀🍷",
+        texto: "E parece que o amor resolveu dar as caras por aqui. 👀 No dia 8 de agosto de 2026, Nathalia e Ellen também oficializaram o relacionamento e começaram oficialmente a namorar. 💘 O Sapanews confirma: temos mais um casal oficialmente formado.",
         imagem: "img/noticias/namoro1.jpeg",
         categoria:""
     },
 
     {
         titulo:"🍷 TOUR DO VINHO TEM NOVOS DESDOBRAMENTOS",
-        texto:"Depois dos acontecimentos da famosa tour do vinho, Lethícia e Juliana passaram de protagonistas de uma fofoca para duas sapas apaixonadas. 👀 As duas estão ficando e, segundo fontes, o sentimento já bateu forte. O que começou com vinho terminou em romance. Nunca subestimem o poder de uma taça. 🍷💘",
+        texto:"Depois da famosa tour do vinho, parece que a história entre Lethícia e Juliana ganhou novos capítulos.As duas estão ficando e, ao que tudo indica, o envolvimento está ficando cada vez mais sério. 💕Entre encontros, conversas e muito carinho, o que era apenas uma aproximação agora já tem nome: paixão.O Sapanews deseja que venha aí mais um casal para a nossa lista. 👀🍷",
         imagem:"img/noticias/vinho.png",
         categoria:"🚨 EXCLUSIVO"
     },
