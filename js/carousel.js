@@ -1,29 +1,21 @@
 const noticias = [
     {
-        titulo:"✈️ Delegação carioca desembarca em São Paulo.",
-        texto: "Milly chega para alguns dias em São Paulo. A redação confirma movimentação intensa, expectativa para os rolês e aumento de risadas por metro quadrado.",
-        imagem: "img/noticias/milly.jpg",
-        categoria:"✈️ EDIÇÃO ESPECIAL"
+        titulo:"E NÃO É QUE DEU NAMORO? 💍 ",
+        texto: "Depois de todo mundo já saber, só faltava uma coisa: oficializar. No dia 1º de agosto de 2026, Bruna e Stefany oficializaram o relacionamento e começaram oficialmente a namorar. 💘 O que antes já era praticamente de conhecimento público agora ganhou status oficial: temos um casal.",
+        imagem: "img/noticias/namoro.jpeg",
+        categoria:""
     },   
 
     {
-        titulo:"🔥 PLANTÃO: Integrante informa fuga de parceira amorosa.",
-        texto: `
-        <p>Na manhã desta sexta-feira (24), a redação recebeu a informação de que Lumara dos Santos estaria preparando uma fuga.</p>
-
-        <p>Segundo a denúncia, o motivo teria sido um incêndio iniciado nas partes baixas do corpo da envolvida.</p>
-
-        <p>Testemunhas afirmam que foi utilizada a técnica conhecida como "Beyblade humana" na tentativa de conter as chamas.</p>
-
-        <p>Até o fechamento desta edição, a redação seguia acompanhando o caso.</p>
-        `,        
-        imagem:"img/noticias/incendio.jpeg",
-        categoria:"🚨 PLANTÃO"
+        titulo:"🚨 MAIS UM CASAL OFICIALIZADO ",
+        texto: "Depois da famosa tour do vinho, parece que a história entre Lethícia e Juliana ganhou novos capítulos. As duas estão ficando e, ao que tudo indica, o envolvimento está ficando cada vez mais sério. 💕 Entre encontros, conversas e muito carinho, o que era apenas uma aproximação agora já tem nome: paixão. O Sapanews deseja que venha aí mais um casal para a nossa lista. 👀🍷",
+        imagem: "img/noticias/namoro1.jpeg",
+        categoria:""
     },
 
     {
-        titulo:"🍷 EXCLUSIVO: Exigência de vinho provoca crise diplomática entre Juliana e Lethícia.",
-        texto:"Fontes da redação revelam que Juliana condicionou um encontro à presença de uma garrafa de vinho. O detalhe é que o pedido foi feito em um horário pouco favorável para a missão, levantando suspeitas de que a exigência teria sido uma estratégia para inviabilizar a visita. A investigação segue em andamento.",
+        titulo:"🍷 TOUR DO VINHO TEM NOVOS DESDOBRAMENTOS",
+        texto:"Depois dos acontecimentos da famosa tour do vinho, Lethícia e Juliana passaram de protagonistas de uma fofoca para duas sapas apaixonadas. 👀 As duas estão ficando e, segundo fontes, o sentimento já bateu forte. O que começou com vinho terminou em romance. Nunca subestimem o poder de uma taça. 🍷💘",
         imagem:"img/noticias/vinho.png",
         categoria:"🚨 EXCLUSIVO"
     },
@@ -77,6 +69,6 @@ setInterval(() => {
 
     trocarNoticia(noticiaAtual);
 
-}, 5000);
+}, 7000);
 
 trocarNoticia(0);
