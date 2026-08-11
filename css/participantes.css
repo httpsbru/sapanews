@@ -73,6 +73,8 @@ BOTÃO
 ========================================== */
 
 .botao-entrar {
+    background: #e91e63;
+    color: #fff;
     display: inline-flex;
     align-items: center;
     justify-content: center;
