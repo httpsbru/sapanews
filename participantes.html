@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sapacrew | Sapacrew News</title>
+
+<!-- CSS GLOBAL -->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- CSS ESPECÍFICO -->
+<link rel="stylesheet" href="css/participantes.css">
+
+<!-- RESPONSIVO -->
+<link rel="stylesheet" href="css/responsive.css">
+
+<!-- FONTES -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Bree+Serif&family=Luckiest+Guy&display=swap"
+    rel="stylesheet"
+>
+
+</head>
+
+<body>
+
+
+<!-- =========================
+     HEADER
+========================== -->
+
+<header>
+
+    <div class="container">
+
+        <nav>
+
+            <div class="logo-menu">
+
+                <h2>
+                    Sapacrew <span>NEWS</span>
+                </h2>
+
+            </div>
+
+            <button
+                class="menu-mobile"
+                id="menuMobile"
+                type="button"
+            >
+                ☰
+            </button>
+
+            <ul id="menuLista">
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="galeria.html">
+                        Galeria
+                    </a>
+                </li>
+
+                <li>
+                    <a href="participantes.html" class="ativo">
+                        Sapacrew
+                    </a>
+                </li>
+
+                <li>
+                    <a href="agenda.html">
+                        Rolês
+                    </a>
+                </li>
+
+                <li>
+                    <a href="sobre.html">
+                        Sobre
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<!-- =========================
+     CONTEÚDO
+========================== -->
+
+<main>
+
+    <section class="sapacrew-section">
+
+        <div class="container">
+
+            <!-- INTRODUÇÃO -->
+
+            <div class="sapacrew-intro">
+
+                <span class="sapacrew-selo">
+                    💖 SAPACREW
+                </span>
+
+                <h1>
+                    O elenco oficial do
+                    <span>Sapacrew</span>
+                </h1>
+
+                <p>
+                    Aqui estão as protagonistas oficialmente
+                    cadastradas na nossa central de fofocas. 👀
+                </p>
+
+                <p class="intro-secundaria">
+                    Se você faz parte do Sapacrew e ainda não apareceu
+                    por aqui, não seja tímida. A redação está
+                    esperando por você. 💅
+                </p>
+
+                <a
+                    href="cadastro.html"
+                    class="botao-entrar"
+                >
+                    💖 Quero entrar para o Sapacrew
+                </a>
+
+            </div>
+
+
+            <!-- TÍTULO DA LISTA -->
+
+            <div class="lista-cabecalho">
+
+                <div>
+
+                    <span class="lista-selo">
+                        👀 AS PROTAGONISTAS
+                    </span>
+
+                    <h2>
+                        Quem já está no Sapacrew?
+                    </h2>
+
+                </div>
+
+                <span
+                    id="contadorParticipantes"
+                    class="contador-participantes"
+                 >
+                    0 integrantes
+                </span>
+
+            </div>
+
+
+            <!-- LISTA DE PARTICIPANTES -->
+
+            <div
+                id="listaParticipantes"
+                class="participantes-grid"
+             >
+
+                <div
+                    id="carregandoParticipantes"
+                    class="estado-participantes"
+                 >
+                    <span>💖</span>
+
+                    <p>
+                        A redação está conferindo os arquivos...
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- =========================
+     FOOTER
+========================== -->
+
+<footer>
+
+    <div class="container">
+
+        <p>
+            © 2026 Sapacrew News
+        </p>
+
+        <p>
+            As informações publicadas podem ou não ser verdade.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- MENU -->
+
+<script src="js/menu.js"></script>
+
+
+<!-- PARTICIPANTES -->
+
+<script
+    type="module"
+    src="js/participantes.js"
+></script>
+
+
+</body>
+
+
+</html>

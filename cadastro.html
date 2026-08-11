@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cadastro | Sapacrew News</title>
+
+    <!-- CSS GLOBAL -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- CSS ESPECÍFICO -->
+    <link rel="stylesheet" href="css/cadastro.css">
+
+    <!-- RESPONSIVO -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Bree+Serif&family=Luckiest+Guy&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header>
+
+        <div class="container">
+
+            <nav>
+
+                <div class="logo-menu">
+
+                    <h2>
+                        Sapacrew <span>NEWS</span>
+                    </h2>
+
+                </div>
+
+                <button class="menu-mobile" id="menuMobile">
+                    ☰
+                </button>
+
+                <ul id="menuLista">
+
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="galeria.html">Galeria</a>
+                    </li>
+
+                    <li>
+                        <a href="participantes.html">Sapacrew</a>
+                    </li>
+
+                    <li>
+                        <a href="agenda.html">Rolês</a>
+                    </li>
+
+
+                    <li>
+                        <a href="sobre.html">Sobre</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+         CONTEÚDO
+    ========================== -->
+
+    <main>
+
+        <section class="cadastro-section">
+
+            <div class="container cadastro-container">
+
+                <!-- CABEÇALHO -->
+
+                <div class="cadastro-intro">
+
+                    <span class="cadastro-selo">
+                        💖 SAPACREW
+                    </span>
+
+                    <h1>
+                        Entre para o <span>Sapacrew</span>
+                    </h1>
+
+                    <p>
+                        Toda protagonista merece uma ficha oficial.
+                    </p>
+
+                    <p class="intro-secundaria">
+                        Preencha seus dados e conte um pouquinho sobre você.
+                        Afinal, como vamos falar de você se nem sabemos quem você é? 👀
+                    </p>
+
+                </div>
+
+
+                <!-- FORMULÁRIO -->
+
+                <form id="cadastroForm" class="cadastro-form">
+
+                    <!-- =========================
+                         SOBRE VOCÊ
+                    ========================== -->
+
+                    <div class="form-bloco">
+
+                        <div class="form-bloco-titulo">
+
+                            <span>👤</span>
+
+                            <div>
+                                <h2>Sobre você</h2>
+                                <p>Primeiro, o básico.</p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-grid">
+
+                            <div class="campo campo-full">
+
+                                <label for="nome">
+                                    Nome *
+                                </label>
+
+                                <input type="text" id="nome" name="nome"
+                                    placeholder="Como você quer aparecer no Sapanews?" required>
+
+                            </div>
+
+
+                            <div class="campo">
+
+                                <label for="nascimento">
+                                    Data de nascimento *
+                                </label>
+
+                                <input type="date" id="nascimento" name="nascimento" required>
+
+                                <div id="dadosNascimento" class="dados-calculados" hidden>
+
+                                    <span id="idadeCalculada"></span>
+
+                                    <span id="signoCalculado"></span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="campo">
+
+                                <label for="cidade">
+                                    Onde você mora? *
+                                </label>
+
+                                <input type="text" id="cidade" name="cidade" placeholder="Ex.: São Paulo - SP" required>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- =========================
+                         VIDA AMOROSA
+                    ========================== -->
+
+                    <div class="form-bloco">
+
+                        <div class="form-bloco-titulo">
+
+                            <span>💘</span>
+
+                            <div>
+                                <h2>Vida amorosa</h2>
+                                <p>Agora chegamos na parte realmente importante.</p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-grid">
+
+                            <div class="campo campo-full">
+
+                                <label for="statusRelacionamento">
+                                    Status de relacionamento *
+                                </label>
+
+                                <select id="statusRelacionamento" name="statusRelacionamento" required>
+
+                                    <option value="">
+                                        Selecione...
+                                    </option>
+
+                                    <option value="solteira">
+                                        Solteira
+                                    </option>
+
+                                    <option value="ficando">
+                                        Ficando
+                                    </option>
+
+                                    <option value="namorando">
+                                        Namorando
+                                    </option>
+
+                                    <option value="casada">
+                                        Casada
+                                    </option>
+
+                                    <option value="abandonada">
+                                        Abandonada
+                                    </option>
+
+                                    <option value="complicado">
+                                        É complicado
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <!-- APARECE SOMENTE SE FICANDO/NAMORANDO/CASADA -->
+
+                            <div id="relacionamentoInternoBox" class="campo campo-full campo-condicional" hidden>
+
+                                <label>
+                                    É alguém do Sapacrew?
+                                </label>
+
+                                <div class="opcoes-radio">
+
+                                    <label class="radio-option">
+
+                                        <input type="radio" name="relacionamentoInterno" value="sim">
+
+                                        <span>Sim 💕</span>
+
+                                    </label>
+
+
+                                    <label class="radio-option">
+
+                                        <input type="radio" name="relacionamentoInterno" value="nao">
+
+                                        <span>Não</span>
+
+                                    </label>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- ESCOLHA DA PARCEIRA -->
+
+                            <div id="parceiraBox" class="campo campo-full campo-condicional" hidden>
+
+                                <label for="parceiraId">
+                                    Com quem você está?
+                                </label>
+
+                                <select id="parceiraId" name="parceiraId">
+
+                                    <option value="">
+                                        Selecione uma integrante...
+                                    </option>
+
+                                    <option value="nao-encontrei">
+                                        Não encontrei minha parceira
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <!-- PARCEIRA AINDA NÃO CADASTRADA -->
+
+                            <div id="parceiraNaoCadastradaBox" class="campo campo-full campo-condicional" hidden>
+
+                                <label for="parceiraNomeManual">
+                                    Qual é o nome dela?
+                                </label>
+
+                                <input type="text" id="parceiraNomeManual" name="parceiraNomeManual"
+                                    placeholder="Digite o nome da sua parceira">
+
+                                <small class="ajuda-campo">
+                                    Ela pode se cadastrar no Sapacrew depois. 💕
+                                </small>
+
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- =========================
+                         CURIOSIDADE
+                    ========================== -->
+
+                    <div class="form-bloco">
+
+                        <div class="form-bloco-titulo">
+
+                            <span>👀</span>
+
+                            <div>
+                                <h2>Agora conte um segredo</h2>
+                                <p>Ou uma curiosidade. A redação aceita os dois.</p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="campo campo-full">
+
+                            <label for="curiosidade">
+                                Uma curiosidade sobre você *
+                            </label>
+
+                            <textarea id="curiosidade" name="curiosidade" rows="5" maxlength="300"
+                                placeholder="Uma mania estranha, uma história engraçada, algo que quase ninguém sabe..."
+                                required></textarea>
+
+                            <div class="contador-caracteres">
+                                <span id="contadorCaracteres">0</span>/300
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- =========================
+                         FOTO
+                    ========================== -->
+
+                    <div class="form-bloco">
+
+                        <div class="form-bloco-titulo">
+
+                            <span>📸</span>
+
+                            <div>
+                                <h2>Sua foto</h2>
+                                <p>Essa parte ainda está em investigação pela redação.</p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="foto-upload-area">
+
+                            <div class="foto-upload-preview" id="fotoPreview">
+
+                                <div class="foto-icone">
+                                    📷
+                                </div>
+
+                                <p>
+                                    Nenhuma foto selecionada
+                                </p>
+
+                            </div>
+
+                            <button type="button" id="botaoFoto" class="botao-foto">
+                                📸 Escolher minha foto
+                            </button>
+
+                            <p class="ajuda-foto">
+                                Escolha uma foto sua para aparecer na ficha da Sapacrew.
+                                JPG, PNG ou WEBP · até 5 MB.
+                            </p>
+
+                            <p id="statusUploadFoto" class="status-upload-foto" hidden></p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- =========================
+                         RESUMO
+                    ========================== -->
+
+                    <div id="mensagemErro" class="mensagem mensagem-erro" hidden></div>
+
+
+                    <div id="mensagemSucesso" class="mensagem mensagem-sucesso" hidden></div>
+
+
+                    <button type="submit" class="botao-cadastro" id="botaoCadastro">
+
+                        <span id="textoBotao">
+                            💖 Entrar para a Sapacrew
+                        </span>
+
+                    </button>
+
+
+                    <p class="aviso-cadastro">
+                        Ao enviar, seus dados serão adicionados à ficha de participantes da Sapacrew.
+                    </p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <div class="container">
+
+            <p>
+                © 2026 Sapacrew News
+            </p>
+
+            <p>
+                As informações publicadas podem ou não ser verdade.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/menu.js"></script>
+
+    <script
+        src="https://upload-widget.cloudinary.com/global/all.js"
+        type="text/javascript">
+    </script>
+
+    <script
+        type="module"
+        src="js/cadastro.js">
+    </script>
+    
+
+</body>
+
+</html>
