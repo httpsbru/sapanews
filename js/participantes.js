@@ -139,161 +139,169 @@ async function carregarParticipantes() {
 
         participantes.forEach(participante => {
 
-const card =
-    document.createElement("article");
+            const card =
+                document.createElement("article");
 
-card.className =
-    "participante-card";
+            card.className =
+                "participante-card";
 
 
-/* ======================================
-   FOTO
-====================================== */
+            /* ======================================
+               FOTO
+            ====================================== */
 
-const foto = participante.fotoUrl
-    ? `
+            const foto = participante.fotoUrl
+                ? `
         <img
             src="${escaparHTML(participante.fotoUrl)}"
             alt="Foto de ${escaparHTML(participante.nome || "integrante")}"
             class="participante-foto"
         >
       `
-    : `
+                : `
         <div class="participante-icone">
             💖
         </div>
       `;
 
 
-/* ======================================
-   STATUS DE RELACIONAMENTO
-====================================== */
+            /* ======================================
+               STATUS DE RELACIONAMENTO
+            ====================================== */
 
-let relacionamentoTexto = "";
+            let relacionamentoTexto = "";
 
-const status = participante.statusRelacionamento;
+            const status = participante.statusRelacionamento;
 
-if (status === "solteira") {
+            if (status === "solteira") {
 
-    relacionamentoTexto = "💔 Solteira";
+                relacionamentoTexto = "💔 Solteira";
 
-}
+            }
 
-else if (status === "ficando") {
+            else if (status === "ficando") {
 
-    if (participante.parceiraNome) {
+                if (participante.parceiraNome) {
 
-        relacionamentoTexto =
-            `💘 Ficando com ${escaparHTML(participante.parceiraNome)}`;
+                    relacionamentoTexto =
+                        `💘 Ficando com ${escaparHTML(participante.parceiraNome)}`;
 
-    } else {
+                } else {
 
-        relacionamentoTexto = "💘 Ficando";
+                    relacionamentoTexto = "💘 Ficando";
 
-    }
+                }
 
-}
+            }
 
-else if (status === "namorando") {
+            else if (status === "namorando") {
 
-    if (participante.parceiraNome) {
+                if (participante.parceiraNome) {
 
-        relacionamentoTexto =
-            `💕 Namorando com ${escaparHTML(participante.parceiraNome)}`;
+                    relacionamentoTexto =
+                        `💕 Namorando com ${escaparHTML(participante.parceiraNome)}`;
 
-    } else {
+                } else {
 
-        relacionamentoTexto = "💕 Namorando";
+                    relacionamentoTexto = "💕 Namorando";
 
-    }
+                }
 
-}
+            }
 
-else if (status === "casada") {
+            else if (status === "casada") {
 
-    if (participante.parceiraNome) {
+                if (participante.parceiraNome) {
 
-        relacionamentoTexto =
-            `💍 Casada com ${escaparHTML(participante.parceiraNome)}`;
+                    relacionamentoTexto =
+                        `💍 Casada com ${escaparHTML(participante.parceiraNome)}`;
 
-    } else {
+                } else {
 
-        relacionamentoTexto = "💍 Casada";
+                    relacionamentoTexto = "💍 Casada";
 
-    }
+                }
 
-}
+            }
 
-else if (status === "abandonada") {
+            else if (status === "abandonada") {
 
-    relacionamentoTexto =
-        "🥲 Abandonada";
+                relacionamentoTexto =
+                    "🥲 Abandonada";
 
-}
+            }
 
-else if (status === "complicado") {
+            else if (status === "complicado") {
 
-    relacionamentoTexto =
-        "🤡 É complicado";
+                relacionamentoTexto =
+                    "🤡 É complicado";
 
-}
-
-
-/* ======================================
-   CARD
-====================================== */
-
-card.innerHTML = `
-
-    <div class="participante-foto-container">
-        ${foto}
-    </div>
-
-    <h3>
-        ${escaparHTML(
-            participante.nome || "Sem nome"
-        )}
-    </h3>
-
-    <div class="participante-info">
-
-    <span>
-        🎂 ${participante.idade ?? "--"} anos
-    </span>
-
-    <span>
-        ${escaparHTML(
-            participante.signo ||
-            "Signo não informado"
-        )}
-    </span>
-
-    <span>
-        📍 ${escaparHTML(
-            participante.cidade ||
-            "Localidade não informada"
-        )}
-    </span>
-
-</div>
-
-    ${
-        relacionamentoTexto
-            ? `
-                <div class="participante-relacionamento">
-                    ${relacionamentoTexto}
-                </div>
-              `
-            : ""
-    }
-
-`;
+            }
 
 
-listaParticipantes.appendChild(card);
+            /* ======================================
+               CARD
+            ====================================== */
 
-
+            card.innerHTML = ` 
+                <div class="participante-foto-container"> 
+                    ${foto} 
+                </div> 
+                
+                <h3> 
+                    ${escaparHTML(
+                        participante.nome || "Sem nome"
+                    )} 
+                </h3> 
+                
+                <div class="participante-info"> 
+                    <span> 
+                        🎂 ${participante.idade ?? "--"} anos 
+                    </span> 
+                    
+                    <span> 
+                        ${escaparHTML(
+                            participante.signo || 
+                            "Signo não informado"
+                        )} 
+                    </span> 
+                    
+                    <span> 
+                        📍 ${escaparHTML(
+                            participante.cidade || 
+                            "Localidade não informada"
+                        )} 
+                    </span> 
+                </div> 
+                
+                ${
+                    relacionamentoTexto
+                        ?  ` 
+                                <div class="participante-relacionamento"> 
+                                    ${relacionamentoTexto} 
+                                </div> 
+                            `   
+                        : ""
+                } 
+                
+                <div class="participante-curiosidade"> 
+                
+                    <div class="curiosidade-titulo"> 
+                        📝 CURIOSIDADE 
+                    </div> 
+                    
+                    <p> 
+                        ${escaparHTML(
+                            participante.curiosidade || 
+                            "Essa integrante ainda não revelou seus segredos. 👀"
+                        )} 
+                    </p> 
+                </div> 
+            `; 
+            
             listaParticipantes.appendChild(card);
+
+
 
         });
 
