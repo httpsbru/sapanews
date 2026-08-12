@@ -13,6 +13,7 @@ import { db } from "./firebase.js";
 // ==========================================
 
 const formulario = document.getElementById("cadastroForm");
+const modalSucesso = document.getElementById("modalSucesso");
 
 const nomeInput = document.getElementById("nome");
 const nascimentoInput = document.getElementById("nascimento");
@@ -611,6 +612,14 @@ function mostrarSucesso(mensagem) {
 
 }
 
+function abrirModalSucesso() {
+
+    modalSucesso.hidden = false;
+
+    document.body.style.overflow = "hidden";
+
+}
+
 
 // ==========================================
 // ENVIAR CADASTRO
@@ -858,9 +867,7 @@ formulario.addEventListener("submit", async (evento) => {
         );
 
 
-        mostrarSucesso(
-            `Cadastro realizado com sucesso! 💖 Bem-vinda ào Sapacrew, ${nome}!`
-        );
+        abrirModalSucesso();
 
 
         // Limpa formulário

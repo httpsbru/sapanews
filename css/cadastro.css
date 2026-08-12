@@ -485,6 +485,254 @@
     line-height: 1.5;
 }
 
+/*======================================
+MODAL DE CADASTRO REALIZADO
+======================================*/
+
+.modal-sucesso {
+
+    position: fixed;
+
+    inset: 0;
+
+    z-index: 9999;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 20px;
+
+}
+
+
+.modal-sucesso[hidden] {
+
+    display: none;
+
+}
+
+
+.modal-overlay {
+
+    position: absolute;
+
+    inset: 0;
+
+    background: rgba(0, 0, 0, .65);
+
+    backdrop-filter: blur(5px);
+
+}
+
+
+.modal-conteudo {
+
+    position: relative;
+
+    z-index: 2;
+
+    width: min(500px, 100%);
+
+    background: white;
+
+    border-radius: 28px;
+
+    padding: 45px 40px;
+
+    text-align: center;
+
+    box-shadow: 0 20px 60px rgba(0, 0, 0, .35);
+
+    animation: modalEntrar .35s ease;
+
+}
+
+
+.modal-icone {
+
+    width: 80px;
+
+    height: 80px;
+
+    margin: 0 auto 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #fff0e7;
+
+    border-radius: 50%;
+
+    font-size: 40px;
+
+}
+
+
+.modal-conteudo h2 {
+
+    font-family: "Bree Serif", serif;
+
+    font-size: 38px;
+
+    color: var(--preto);
+
+    line-height: 1.1;
+
+    margin-bottom: 18px;
+
+}
+
+
+.modal-conteudo p {
+
+    color: #666;
+
+    font-size: 17px;
+
+    line-height: 1.7;
+
+}
+
+
+.modal-divisor {
+
+    width: 70px;
+
+    height: 3px;
+
+    background: var(--laranja);
+
+    margin: 25px auto;
+
+    border-radius: 50px;
+
+}
+
+
+.modal-regrinhas-texto {
+
+    font-weight: 600;
+
+    color: #444 !important;
+
+}
+
+
+.modal-botoes {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+
+    margin-top: 28px;
+
+}
+
+
+.modal-botao {
+
+    display: block;
+
+    padding: 15px 20px;
+
+    border-radius: 12px;
+
+    font-weight: 700;
+
+    transition: .3s;
+
+}
+
+
+.modal-botao.principal {
+
+    background: var(--laranja);
+
+    color: white;
+
+}
+
+
+.modal-botao.principal:hover {
+
+    background: var(--laranjaEscuro);
+
+    transform: translateY(-2px);
+
+}
+
+
+.modal-botao.secundario {
+
+    background: var(--cinza2);
+
+    color: #333;
+
+}
+
+
+.modal-botao.secundario:hover {
+
+    background: #ece8df;
+
+}
+
+
+@keyframes modalEntrar {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(25px) scale(.95);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0) scale(1);
+
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .modal-conteudo {
+
+        padding: 35px 25px;
+
+        border-radius: 22px;
+
+    }
+
+
+    .modal-conteudo h2 {
+
+        font-size: 32px;
+
+    }
+
+
+    .modal-conteudo p {
+
+        font-size: 15px;
+
+    }
+
+}
+
 
 /* ==========================================
    RESPONSIVO

@@ -25,27 +25,19 @@ INTRO
     display: inline-block;
     margin-bottom: 18px;
     padding: 8px 18px;
-
-
     border-radius: 999px;
-
     font-size: 0.8rem;
     font-weight: 800;
     letter-spacing: 1px;
-
     background: rgba(255, 105, 180, 0.12);
-
 
 }
 
 .sapacrew-intro h1 {
     margin: 0 0 18px;
-
     font-family: "Bree Serif", serif;
-    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    font-size: clamp(2.2rem, 5vw, 4rem);
     line-height: 1.05;
-
-
 }
 
 .sapacrew-intro h1 span {
@@ -272,10 +264,7 @@ ESTADOS
 
 .estado-participantes span {
     display: block;
-
-
     margin-bottom: 12px;
-
     font-size: 2rem;
 
 
