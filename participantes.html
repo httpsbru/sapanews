@@ -165,6 +165,199 @@
 
             </div>
 
+                    <!-- =========================
+                    CORREIO DA SAPACREW
+                    ========================== -->
+
+            <section class="correio-sapacrew">
+
+                <div class="correio-intro">
+
+                    <span class="correio-selo">
+                        💌 CORREIO DA SAPACREW
+                    </span>
+
+                    <h2>
+                        Tem algo para dizer? 👀
+                    </h2>
+
+                    <p>
+                        Mande uma cantada, um elogio, uma declaração
+                        ou aquele recadinho que você não teve coragem
+                        de mandar no WhatsApp.
+                    </p>
+
+                    <p class="correio-aviso">
+                        Você decide se quer assinar ou permanecer
+                        no mais absoluto mistério. 🕵️‍♀️
+                    </p>
+
+                </div>
+
+
+                <!-- FORMULÁRIO -->
+
+                <form
+                    id="formRecado"
+                    class="form-recado"
+                >
+
+                    <!-- DESTINATÁRIA -->
+
+                    <div class="campo-recado">
+
+                        <label for="destinatariaRecado">
+                            Para quem é o recado? 💘
+                        </label>
+
+                        <select
+                            id="destinatariaRecado"
+                            required
+                        >
+
+                            <option value="">
+                                Escolha uma integrante...
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- MENSAGEM -->
+
+                    <div class="campo-recado">
+
+                        <label for="mensagemRecado">
+                            Seu recadinho 💌
+                        </label>
+
+                        <textarea
+                            id="mensagemRecado"
+                            rows="5"
+                            maxlength="300"
+                            placeholder="Pode mandar a cantada. A redação promete não julgar... muito. 👀"
+                            required
+                        ></textarea>
+
+                        <div class="contador-recado">
+
+                            <span
+                                id="contadorMensagemRecado"
+                            >
+                                0
+                            </span>/300
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- ANONIMATO -->
+
+                    <div class="campo-recado">
+
+                        <span class="label-recado">
+                            Quer se identificar?
+                        </span>
+
+                        <div class="opcoes-identificacao">
+
+                            <label class="opcao-identificacao">
+
+                                <input
+                                    type="radio"
+                                    name="identificacaoRecado"
+                                    value="anonimo"
+                                    checked
+                                >
+
+                                <span>
+                                    👀 Quero permanecer anônima
+                                </span>
+
+                            </label>
+
+
+                            <label class="opcao-identificacao">
+
+                                <input
+                                    type="radio"
+                                    name="identificacaoRecado"
+                                    value="identificada"
+                                >
+
+                                <span>
+                                    ✍️ Quero me identificar
+                                </span>
+
+                            </label>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- NOME -->
+
+                    <div
+                        id="nomeRemetenteBox"
+                        class="campo-recado"
+                        hidden
+                    >
+
+                        <label for="nomeRemetente">
+
+                            Então se apresente 👀
+
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nomeRemetente"
+                            maxlength="50"
+                            placeholder="Seu nome"
+                        >
+
+                    </div>
+
+
+                    <!-- MENSAGENS -->
+
+                    <div
+                        id="mensagemErroRecado"
+                        class="mensagem-recado mensagem-erro-recado"
+                        hidden
+                    ></div>
+
+
+                    <div
+                        id="mensagemSucessoRecado"
+                        class="mensagem-recado mensagem-sucesso-recado"
+                        hidden
+                    ></div>
+
+
+                    <!-- BOTÃO -->
+
+                    <button
+                        type="submit"
+                        id="botaoEnviarRecado"
+                        class="botao-enviar-recado"
+                    >
+
+                        <span
+                            id="textoBotaoRecado"
+                        >
+                            💌 Enviar recado
+                        </span>
+
+                    </button>
+
+                </form>
+
+            </section>
+
         </div>
 
     </section>
