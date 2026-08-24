@@ -71,7 +71,7 @@ button{
 
 section{
 
-    padding:80px 0;
+    padding:30px 0;
 
 }
 
@@ -602,7 +602,7 @@ font-weight:bold;
 
     font-weight: 600;
 
-    animation: ticker 22s linear infinite;
+    animation: ticker 30s linear infinite;
 
 }
 
@@ -635,5 +635,21 @@ transform:translateX(100%);
 transform:translateX(-100%);
 
 }
+
+}
+
+/*======================================
+MENU MOBILE
+======================================*/
+
+.menu-mobile{
+
+    display:none;
+
+    background:none;
+
+    color:white;
+
+    font-size:34px;
 
 }
