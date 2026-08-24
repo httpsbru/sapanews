@@ -1,4 +1,12 @@
 const noticias = [
+
+     {
+        titulo:"TEM VETERANA DE VOLTA! 🚨",
+        texto:"Depois de um período longe dos holofotes, uma das veteranas mais conhecidas do grupo está oficialmente de volta. 👀💅 <br><br> Jady retornou ao grupo! E para quem já conhece a figura, sabe que essa volta pode significar uma coisa: movimentação. 😂 <br><br> Com um histórico de participação bastante ativa, a presença de Jady promete trazer de volta conversas, fofocas, opiniões e, quem sabe, aquele velho caos que a gente conhece tão bem. 🍿 <br><br> 👀 A pergunta que fica é: o grupo está preparado para o retorno dessa veterana?",
+        imagem:"img/noticias/jady.jpeg",
+        categoria:"🚨 EXCLUSIVO"
+    },
+
     {
         titulo:"E NÃO É QUE DEU NAMORO? 💍 ",
         texto: "Depois de todo mundo já saber, só faltava uma coisa: oficializar. No dia 1º de agosto de 2026, Bruna e Stefany oficializaram o relacionamento e começaram oficialmente a namorar. 💘 O que antes já era praticamente de conhecimento público agora ganhou status oficial: temos um casal.",
@@ -13,12 +21,7 @@ const noticias = [
         categoria:""
     },
 
-    {
-        titulo:"🍷 TOUR DO VINHO TEM NOVOS DESDOBRAMENTOS",
-        texto:"Depois da famosa tour do vinho, parece que a história entre Lethícia e Juliana ganhou novos capítulos.As duas estão ficando e, ao que tudo indica, o envolvimento está ficando cada vez mais sério. 💕Entre encontros, conversas e muito carinho, o que era apenas uma aproximação agora já tem nome: paixão.O Sapanews deseja que venha aí mais um casal para a nossa lista. 👀🍷",
-        imagem:"img/noticias/vinho.png",
-        categoria:"🚨 EXCLUSIVO"
-    },
+   
 
 
 ];
