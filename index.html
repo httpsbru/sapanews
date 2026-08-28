@@ -180,10 +180,10 @@
             <div class="container">
 
                 <div class="titulo">
-
-                    <h2>📰 Últimas Notícias</h2>
-
-                    <a href="noticias.html">Ver todas →</a>
+                    <a href="noticias.html" class="titulo-noticias">
+                        <h2>📰 Últimas Notícias</h2>
+                    </a>
+                     <a href="noticias.html">Ver todas →</a>
 
                 </div>
 
@@ -226,12 +226,14 @@
             <div class="container">
 
                 <div class="titulo">
-
-                    <h2>📸 Cobertura Exclusiva</h2>
-
-                    <a href="galeria.html">Ver galeria →</a>
+                    <a href="galeria.html" class="titulo-noticias">
+                        <h2>📸 Cobertura Exclusiva</h2>
+                    </a>
+                     <a href="galeria.html">Ver galeria →</a>
 
                 </div>
+
+                
 
                 <!-- Álbum principal -->
 
@@ -404,7 +406,7 @@
 
             <div class="eventos-grid">
 
-                <div class="evento-card">
+                <button class="evento-card" data-evento="0">
 
                     <div class="data">
 
@@ -416,7 +418,7 @@
 
                     <div class="info">
 
-                        <h3>Pendente</h3>
+                        <h3>Fakku Bar</h3>
 
                         <p>Sábado • 18h</p>
 
@@ -424,13 +426,13 @@
 
                     <div class="emoji">
 
-                        .
+                        🍺
 
                     </div>
 
-                </div>
+                </button>
 
-                <div class="evento-card">
+                <button class="evento-card" data-evento="1">
 
                     <div class="data">
 
@@ -450,12 +452,13 @@
 
                     <div class="emoji">
 
+                        📅
 
                     </div>
 
-                </div>
+                </button>
 
-                <div class="evento-card">
+                <button class="evento-card" data-evento="2">
 
                     <div class="data">
 
@@ -474,10 +477,12 @@
                     </div>
 
                     <div class="emoji">
-                                .
+
+                        📅
+
                     </div>
 
-                </div>
+                </button>
 
             </div>
 
@@ -528,6 +533,80 @@
             </div>
 
         </section>
+                </section>
+
+
+        <!-- MODAL DOS ROLÊS -->
+
+        <div class="modal-evento" id="modalEvento">
+
+            <div class="modal-evento-conteudo">
+
+                <button class="modal-fechar" id="fecharModal">
+                    ×
+                </button>
+
+                <img
+                    id="eventoImagem"
+                    class="modal-evento-imagem"
+                    src=""
+                    alt=""
+                >
+
+                <div class="modal-evento-info">
+
+                    <h2 id="eventoTitulo"></h2>
+
+                    <div class="evento-detalhes">
+
+                        <p>
+                            📅
+                            <strong>Data:</strong>
+                            <span id="eventoData"></span>
+                        </p>
+
+                        <p>
+                            🕐
+                            <strong>Horário:</strong>
+                            <span id="eventoHorario"></span>
+                        </p>
+
+                        <p>
+                            📍
+                            <strong>Endereço:</strong>
+                            <span id="eventoEndereco"></span>
+                        </p>
+
+                    </div>
+
+                    <div class="evento-descricao">
+
+                        <h3>Sobre o evento</h3>
+
+                        <p id="eventoDescricao"></p>
+
+                    </div>
+
+                    <a
+                        id="eventoMapa"
+                        class="botao-mapa"
+                        href="#"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        🗺️ Abrir no Google Maps
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </main>
+
+    <footer>
 
     </main>
 

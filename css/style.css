@@ -108,6 +108,21 @@ section{
 
 }
 
+.titulo a.titulo-noticias{
+
+    color:#333;
+    font-weight:normal;
+    text-decoration:none;
+
+}
+
+.titulo a.titulo-noticias:hover{
+
+    color:#333;
+    text-decoration:none;
+
+}
+
 header{
 
     background:#111;
@@ -370,6 +385,8 @@ top:-30px;
     transform-origin:top left;
 
 }
+
+
 
 @keyframes crewBalanco{
 
