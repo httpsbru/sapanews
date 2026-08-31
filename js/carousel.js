@@ -76,6 +76,21 @@ const noticias = [
         imagem: "img/noticias/nath-treta.jpg",
         categoria:"👀 TRETA",
         carrossel: false
+    },
+
+    {
+        titulo:"📢 Comunicado oficial",
+        resumo: "Boss deixa o cargo e entrega o comando às novas ADMs",
+        texto: `
+            <p>Após meses de serviços prestados à nação, a Boss anunciou sua saída do Sapacrew, deixando oficialmente o grupo sob o comando das novas ADMs. 👑</p>
+            <p>A transição de poder aconteceu e, aparentemente, não houve golpe, votação ou impeachment — apenas a Boss metendo o pé e deixando a responsabilidade nas mãos de quem ficou. KKKKKKK</p>
+            <p>As novas administradoras assumem agora a missão de manter a ordem, controlar as fofocas, administrar os surtos e, principalmente, impedir que esse grupo vire uma terra sem lei. 🫡</p>
+            
+        `,
+
+        imagem: "img/noticias/saida-boss.png",
+        categoria:"👀 TRETA",
+        carrossel: true
     }
 
 

@@ -50,6 +50,34 @@ GALERIA SAPACREW
 
 }
 
+.titulo-eventos{
+
+    margin-bottom:35px;
+
+}
+
+.titulo-eventos h2{
+
+    margin-bottom:10px;
+
+}
+
+.titulo-eventos p{
+
+    color:#666;
+
+    font-size:18px;
+
+    margin-bottom:0;
+
+}
+
+.titulo-eventos.realizados{
+
+    margin-top:80px;
+
+}
+
 .albuns-grid{
 
     display:grid;
@@ -88,7 +116,7 @@ CARD
 
 .album-card:hover{
 
-    transform:translateY(-10px);
+    transform:none;
 
 }
 
@@ -106,7 +134,7 @@ IMAGEM
 
     object-position:center;
 
-    transition:.6s;
+    transition:.3s;
 
 }
 
@@ -115,7 +143,11 @@ IMAGEM
     transform:scale(1.08);
 
 }
+.titulo-eventos p{
+    font-size:20px;
+    font-family:"Bree Serif";
 
+}
 /*======================
 INFORMAÇÕES
 ======================*/
@@ -278,6 +310,665 @@ footer{
 
 }
 
+
+/*======================================
+CONFIRMAÇÃO DE PRESENÇA
+======================================*/
+
+.confirmacao-evento{
+
+    padding:80px 0;
+
+    background:#faf7f2;
+
+}
+
+.confirmacao-box{
+
+    max-width:700px;
+
+    margin:auto;
+
+    background:white;
+
+    padding:55px;
+
+    border-radius:25px;
+
+    text-align:center;
+
+    box-shadow:var(--sombra);
+
+}
+
+.confirmacao-emoji{
+
+    font-size:55px;
+
+    display:block;
+
+    margin-bottom:15px;
+
+}
+
+.confirmacao-box h2{
+
+    font-family:"Bree Serif";
+
+    font-size:40px;
+
+    margin-bottom:15px;
+
+}
+
+.confirmacao-box > p{
+
+    max-width:550px;
+
+    margin:0 auto;
+
+    color:#666;
+
+    line-height:1.7;
+
+    font-size:18px;
+
+}
+
+.contador-presenca{
+
+    margin:30px 0;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.contador-presenca strong{
+
+    font-size:45px;
+
+    font-family:"Bree Serif";
+
+    color:var(--laranja);
+
+}
+
+.contador-presenca span{
+
+    color:#666;
+
+}
+
+.botao-confirmar{
+
+    border:none;
+
+    background:var(--laranja);
+
+    color:white;
+
+    padding:16px 35px;
+
+    border-radius:12px;
+
+    font-size:17px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.botao-confirmar:hover{
+
+    background:#111;
+
+    transform:translateY(-2px);
+
+}
+
+
+/*======================================
+MODAL
+======================================*/
+
+.modal-confirmacao{
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,.7);
+
+    display:none;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:20px;
+
+    z-index:99999;
+
+}
+
+.modal-confirmacao.ativo{
+
+    display:flex;
+
+}
+
+.modal-confirmacao-conteudo{
+
+    position:relative;
+
+    width:100%;
+
+    max-width:480px;
+
+    background:white;
+
+    border-radius:25px;
+
+    padding:45px;
+
+    text-align:center;
+
+    box-shadow:0 20px 60px rgba(0,0,0,.3);
+
+}
+
+.fechar-confirmacao{
+
+    position:absolute;
+
+    top:15px;
+
+    right:20px;
+
+    border:none;
+
+    background:none;
+
+    font-size:35px;
+
+    cursor:pointer;
+
+    color:#555;
+
+}
+
+.modal-icone{
+
+    font-size:50px;
+
+    margin-bottom:10px;
+
+}
+
+.modal-confirmacao-conteudo h2{
+
+    font-family:"Bree Serif";
+
+    font-size:34px;
+
+    margin-bottom:10px;
+
+}
+
+.modal-confirmacao-conteudo > p{
+
+    color:#666;
+
+    margin-bottom:25px;
+
+}
+
+.modal-confirmacao-conteudo label{
+
+    display:block;
+
+    text-align:left;
+
+    font-weight:bold;
+
+    margin-bottom:8px;
+
+}
+
+.modal-confirmacao-conteudo input{
+
+    width:100%;
+
+    padding:15px;
+
+    border:2px solid #ddd;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+    outline:none;
+
+    margin-bottom:20px;
+
+}
+
+.modal-confirmacao-conteudo input:focus{
+
+    border-color:var(--laranja);
+
+}
+
+.botao-enviar-confirmacao{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:var(--laranja);
+
+    color:white;
+
+    font-weight:bold;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+}
+
+.botao-enviar-confirmacao:hover{
+
+    background:#111;
+
+}
+
+.mensagem-confirmacao{
+
+    margin-top:20px;
+
+    font-weight:bold;
+
+}
+
+/* ======================================
+   MODAL HALLOWEEN
+====================================== */
+
+.modal-confirmacao-conteudo {
+
+    max-width: 500px;
+
+    border: 3px solid #111;
+
+    animation:
+        aparecerModal .25s ease;
+
+}
+
+
+@keyframes aparecerModal {
+
+    from {
+
+        opacity: 0;
+
+        transform:
+            translateY(20px)
+            scale(.96);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform:
+            translateY(0)
+            scale(1);
+
+    }
+
+}
+
+
+/* TAG */
+
+.modal-tag {
+
+    display: inline-block;
+
+    background: #111;
+
+    color: white;
+
+    padding: 7px 14px;
+
+    border-radius: 50px;
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: .5px;
+
+    margin-bottom: 15px;
+
+}
+
+
+/* DESCRIÇÃO */
+
+.modal-descricao {
+
+    color: #666;
+
+    line-height: 1.7;
+
+    margin-bottom: 28px;
+
+}
+
+
+/* INPUT */
+
+.modal-confirmacao-conteudo input {
+
+    box-sizing: border-box;
+
+    background: #fafafa;
+
+    border: 2px solid #ddd;
+
+    transition: .2s;
+
+}
+
+
+.modal-confirmacao-conteudo input:focus {
+
+    background: white;
+
+    border-color: var(--laranja);
+
+    box-shadow:
+        0 0 0 4px
+        rgba(214,45,32,.10);
+
+}
+
+
+/* BOTÃO */
+
+.botao-enviar-confirmacao {
+
+    transition: .25s;
+
+}
+
+
+.botao-enviar-confirmacao:hover {
+
+    transform:
+        translateY(-2px);
+
+    box-shadow:
+        0 8px 20px
+        rgba(0,0,0,.15);
+
+}
+
+
+.botao-enviar-confirmacao:disabled {
+
+    opacity: .6;
+
+    cursor: wait;
+
+    transform: none;
+
+}
+
+
+/* MENSAGEM */
+
+.mensagem-confirmacao {
+
+    min-height: 24px;
+
+    color: var(--laranja);
+
+}
+
+
+/* AVISO */
+
+.modal-aviso {
+
+    display: block;
+
+    margin-top: 20px;
+
+    color: #999;
+
+    line-height: 1.5;
+
+}
+
+/* ======================================
+   PÓS EVENTO
+====================================== */
+
+.pos-evento {
+
+    display: none;
+
+    padding: 80px 0;
+
+    background: #f5f1ea;
+
+}
+
+
+.pos-evento-box {
+
+    max-width: 700px;
+
+    margin: auto;
+
+    padding: 55px;
+
+    background: white;
+
+    border-radius: 25px;
+
+    text-align: center;
+
+    box-shadow: var(--sombra);
+
+}
+
+
+.pos-evento-emoji {
+
+    display: block;
+
+    font-size: 60px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.pos-evento-box h2 {
+
+    font-family: "Bree Serif";
+
+    font-size: 42px;
+
+    margin: 20px 0 15px;
+
+}
+
+
+.pos-evento-box p {
+
+    color: #666;
+
+    font-size: 18px;
+
+    line-height: 1.7;
+
+    margin-bottom: 30px;
+
+}
+
+
+.botao-galeria {
+
+    display: inline-block;
+
+    background: var(--laranja);
+
+    color: white;
+
+    padding: 16px 30px;
+
+    border-radius: 12px;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    transition: .3s;
+
+}
+
+
+.botao-galeria:hover {
+
+    background: #111;
+
+    transform: translateY(-2px);
+
+}
+
+
+@media(max-width:768px) {
+
+    .pos-evento-box {
+
+        padding: 40px 22px;
+
+    }
+
+    .pos-evento-box h2 {
+
+        font-size: 32px;
+
+    }
+
+}
+
+/* ======================================
+   LISTA DE CONFIRMADAS
+====================================== */
+
+.lista-confirmadas {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.lista-confirmadas h3 {
+    margin-bottom: 15px;
+}
+
+.pessoa-confirmada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    padding: 8px 12px;
+}
+
+
+/* ======================================
+   AÇÕES DA CONFIRMAÇÃO
+====================================== */
+
+.acoes-confirmacao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    margin-top: 15px;
+}
+
+.botao-alterar,
+.botao-cancelar {
+    width: 100%;
+    padding: 12px;
+
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-weight: 700;
+}
+
+.botao-alterar {
+    background: #d96a1d;
+    color: white;
+}
+
+.botao-cancelar {
+    background: #eee;
+    color: #a33;
+}
+
+.botao-alterar:hover,
+.botao-cancelar:hover {
+    opacity: .85;
+}
+
+/*======================================
+RESPONSIVO
+======================================*/
+
+@media(max-width:768px){
+
+    .confirmacao-box{
+
+        padding:35px 22px;
+
+    }
+
+    .confirmacao-box h2{
+
+        font-size:32px;
+
+    }
+
+    .modal-confirmacao-conteudo{
+
+        padding:40px 25px;
+
+    }
+
+}
 /*======================
 RESPONSIVO
 ======================*/
