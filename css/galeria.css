@@ -4,8 +4,7 @@ GALERIA SAPACREW
 
 .hero-galeria{
 
-    background:
-    linear-gradient(rgba(8, 2, 18, .25),rgba(255,255,255,.90)),
+    background:#f5f1ea;
     url("../img/fundo-jornal.png");
 
     padding:90px 0;
