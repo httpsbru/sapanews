@@ -1022,6 +1022,305 @@ MATÉRIA PRINCIPAL
 
 }
 
+/* =========================================
+   MODAL ANIVERSÁRIO LETHICIA
+========================================= */
+
+.modal-aniversario {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.78);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+
+    z-index: 99999;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+    transition:
+        opacity 0.3s ease,
+        visibility 0.3s ease;
+}
+
+
+/* Modal aberto */
+
+.modal-aniversario.ativo {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+
+/* =========================================
+   CAIXA DO MODAL
+========================================= */
+
+.modal-aniversario-conteudo {
+    position: relative;
+
+    width: 100%;
+    max-width: 560px;
+    max-height: 90vh;
+
+    overflow-y: auto;
+
+    background: #ffffff;
+
+    border-radius: 24px;
+
+    padding: 38px 35px 30px;
+
+    box-shadow:
+        0 25px 80px rgba(0, 0, 0, 0.45);
+
+    transform: translateY(30px) scale(0.96);
+
+    transition:
+        transform 0.35s ease;
+
+    text-align: center;
+}
+
+
+/* Animação quando abre */
+
+.modal-aniversario.ativo
+.modal-aniversario-conteudo {
+    transform: translateY(0) scale(1);
+}
+
+
+/* =========================================
+   BOTÃO FECHAR
+========================================= */
+
+.modal-aniversario-fechar {
+    position: absolute;
+
+    top: 12px;
+    right: 15px;
+
+    width: 38px;
+    height: 38px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: rgba(0, 0, 0, 0.06);
+
+    color: #555;
+
+    font-size: 28px;
+    line-height: 1;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease;
+}
+
+.modal-aniversario-fechar:hover {
+    background: rgba(0, 0, 0, 0.12);
+    transform: rotate(90deg);
+}
+
+
+/* =========================================
+   CABEÇALHO
+========================================= */
+
+.aniversario-cabecalho {
+    margin-bottom: 25px;
+}
+
+
+.aniversario-emoji {
+    font-size: 58px;
+
+    margin-bottom: 10px;
+
+    animation: aniversarioBalançar 2s ease-in-out infinite;
+}
+
+
+@keyframes aniversarioBalançar {
+
+    0%,
+    100% {
+        transform: rotate(-5deg);
+    }
+
+    50% {
+        transform: rotate(5deg);
+    }
+
+}
+
+
+/* Tag */
+
+.aniversario-tag {
+    display: inline-block;
+
+    padding: 6px 14px;
+
+    border-radius: 50px;
+
+    background: #f1f1f1;
+
+    font-size: 11px;
+    font-weight: 700;
+
+    letter-spacing: 1.5px;
+
+    margin-bottom: 12px;
+}
+
+
+/* Título */
+
+.aniversario-cabecalho h2 {
+    margin: 0 0 8px;
+
+    font-size: 32px;
+    font-weight: 800;
+
+    line-height: 1.2;
+}
+
+
+/* Nome */
+
+.aniversario-nome {
+    margin: 0;
+
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+/* =========================================
+   TEXTO
+========================================= */
+
+.aniversario-texto {
+    text-align: left;
+
+    font-size: 16px;
+
+    line-height: 1.7;
+
+    color: #444;
+}
+
+
+.aniversario-texto p {
+    margin: 0 0 16px;
+}
+
+
+.aniversario-texto strong {
+    font-weight: 800;
+}
+
+
+/* Destaque final */
+
+.aniversario-destaque {
+    text-align: center;
+
+    font-size: 22px;
+
+    font-weight: 800;
+
+    margin-top: 25px !important;
+}
+
+
+/* =========================================
+   ASSINATURA
+========================================= */
+
+.aniversario-assinatura {
+    margin-top: 25px;
+
+    padding-top: 20px;
+
+    border-top: 1px solid #eeeeee;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+
+    color: #777;
+}
+
+
+.aniversario-assinatura strong {
+    color: #222;
+}
+
+
+/* =========================================
+   BLOQUEAR SCROLL DA PÁGINA
+========================================= */
+
+body.modal-aniversario-aberto {
+    overflow: hidden;
+}
+
+
+/* =========================================
+   RESPONSIVO
+========================================= */
+
+@media (max-width: 600px) {
+
+    .modal-aniversario {
+        padding: 15px;
+    }
+
+    .modal-aniversario-conteudo {
+        padding: 32px 22px 25px;
+
+        border-radius: 20px;
+
+        max-height: 92vh;
+    }
+
+    .aniversario-emoji {
+        font-size: 48px;
+    }
+
+    .aniversario-cabecalho h2 {
+        font-size: 26px;
+    }
+
+    .aniversario-nome {
+        font-size: 18px;
+    }
+
+    .aniversario-texto {
+        font-size: 15px;
+    }
+
+    .aniversario-destaque {
+        font-size: 20px;
+    }
+
+}
+
 /* ======================================
    MODAL DOS ROLÊS
 ====================================== */
