@@ -1356,6 +1356,27 @@ GALERIA DO EVENTO
 
 @media(max-width:768px){
 
+.hero-evento {
+
+    min-height: 500px;
+
+    padding: 70px 20px;
+
+    background-image:
+        linear-gradient(
+            rgba(10, 4, 20, .35),
+            rgba(10, 4, 20, .65)
+        ),
+        url("../img/eventos/halloween/fundo-halloween-mobile.png");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-attachment: scroll;
+
+}
+
 .info-grid{
 
 grid-template-columns:1fr 1fr;
@@ -1383,6 +1404,8 @@ height:230px !important;
 }
 
 }
+
+
 
 /*==============================
 LIGHTBOX
