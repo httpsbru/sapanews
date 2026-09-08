@@ -6,15 +6,24 @@
 const eventos = [
 
     {
-        titulo: "Fakku Bar",
-        data: "29 de agosto de 2026",
+        titulo: "Halloween do Sapacrew",
+        data: "10 e 11 de outubro de 2026",
         horario: "18h",
-        endereco: "R. Dr. Cesário Mota Júnior, 629 - Vila Buarque",
-        imagem: "img/roles/FAKKU-BAR.png",
+        endereco: "Em breve informamos o endereço completo",
+        imagem: "img/eventos/halloween/halloween-capa.png",
         descricao:
-            "Mais um rolê do Sapacrew! 🍺 Preparem-se para uma noite de conversa, fofoca e provavelmente algum acontecimento que vai parar no SapaNews.",
+            "<strong>Preparem as fantasias, porque nos dias 10 e 11 de outubro teremos mais um evento oficial do Sapacrew!</strong> 🎃🕸️"+
+            "<br><br>Uma noite para reunir a nossa galera, colocar o papo em dia, dar boas risadas, render algumas fofocas e, quem sabe, criar conteúdo suficiente para virar manchete no SapaNews. 👀📰<br><br>"+
+            "<strong>📌 INFORMAÇÕES IMPORTANTES</strong><br><br>" +
+            "💰 <strong>Valor estimado:</strong> R$ 50,00 por pessoa<br>" +
+            "🥩 <strong>Cada pessoa deverá levar:</strong> 1kg de carne ou algo para assar<br>" +
+            "🥤 <strong>Bebida:</strong> cada pessoa deverá levar a bebida que for consumir<br>" +
+            "🏠 <strong>Hospedagem:</strong> a casa ficará liberada até às 18h do domingo, dia 11<br>" +
+            "💳 <strong>Pagamento:</strong> deverá ser efetuado até o dia <strong>02/10</strong>.<br><br>" +
+
+            "🎃 Preparem as fantasias e bora fazer desse Halloween mais um rolê inesquecível do Sapacrew! 🕷️🖤",
         mapa:
-            "https://maps.app.goo.gl/vp2PRxLcq7nrtCcY7"
+            "https://maps.app.goo.gl/tGM73r2Dihn92ofq5"
     },
 
     {
@@ -137,7 +146,7 @@ if (
             eventoEndereco.textContent =
                 evento.endereco;
 
-            eventoDescricao.textContent =
+            eventoDescricao.innerHTML =
                 evento.descricao;
 
 
