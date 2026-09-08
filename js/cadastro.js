@@ -5,7 +5,14 @@ import {
     serverTimestamp
 } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-firestore.js";
 
-import { db } from "./firebase.js";
+import {
+    signInAnonymously
+} from "https://www.gstatic.com/firebasejs/12.0.0/firebase-auth.js";
+
+import {
+    db,
+    auth
+} from "./firebase.js";
 
 
 // ==========================================
@@ -76,6 +83,25 @@ const mensagemSucesso =
 
 let participantes = [];
 let fotoUrl = null;
+
+// ==========================================
+// GARANTIR AUTENTICAÇÃO ANÔNIMA
+// ==========================================
+
+async function garantirAutenticacao() {
+
+    // Se já existe usuário autenticado,
+    // usamos o usuário atual.
+    if (auth.currentUser) {
+        return auth.currentUser;
+    }
+
+    // Caso contrário, cria uma sessão anônima.
+    const resultado =
+        await signInAnonymously(auth);
+
+    return resultado.user;
+}
 
 
 // ==========================================
@@ -861,6 +887,17 @@ formulario.addEventListener("submit", async (evento) => {
             "⏳ Salvando cadastro...";
 
 
+        // --------------------------------------
+        // GARANTE AUTENTICAÇÃO
+        // --------------------------------------
+
+        await garantirAutenticacao();
+
+
+        // --------------------------------------
+        // SALVA PARTICIPANTE
+        // --------------------------------------
+
         await addDoc(
             collection(db, "participantes"),
             novoParticipante
@@ -891,11 +928,23 @@ formulario.addEventListener("submit", async (evento) => {
             "💖 Cadastro realizado!";
 
 
-    } catch (erro) {
+    } 
+
+    catch (erro) {
 
         console.error(
             "Erro ao salvar cadastro:",
             erro
+        );
+
+        console.error(
+            "Código do erro:",
+            erro?.code
+        );
+
+        console.error(
+            "Mensagem do erro:",
+            erro?.message
         );
 
 
@@ -906,8 +955,12 @@ formulario.addEventListener("submit", async (evento) => {
 
         textoBotao.textContent =
             "💖 Entrar para o Sapacrew";
+    
+        
 
-    } finally {
+    } 
+    
+    finally {
 
         botaoCadastro.disabled = false;
 
