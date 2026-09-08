@@ -28,7 +28,7 @@ const eventos = [
 
     {
         titulo: "Próximo rolê",
-        data: "05 de setembro de 2026",
+        data: "17 de outubro de 2026",
         horario: "18h",
         endereco: "Local ainda não definido",
         imagem: "img/roles/pendente.jpg",
@@ -40,7 +40,7 @@ const eventos = [
 
     {
         titulo: "Próximo rolê",
-        data: "11 de setembro de 2026",
+        data: "24 de outubro de 2026",
         horario: "19h",
         endereco: "Local ainda não definido",
         imagem: "img/roles/pendente.jpg",
