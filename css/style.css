@@ -623,6 +623,10 @@ font-weight:bold;
 
 }
 
+footer{
+    text-align: center;
+}
+
 @keyframes ticker {
 
     from {

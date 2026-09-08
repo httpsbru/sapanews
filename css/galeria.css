@@ -2,45 +2,44 @@
 GALERIA SAPACREW
 ======================================*/
 
-.hero-galeria{
+.hero-galeria {
 
-    background:#f5f1ea;
-    padding:90px 0;
-    text-align:center;
-
-}
-
-.hero-galeria h1{
-
-    font-size:60px;
-    font-family:"Bree Serif";
-    margin-bottom:20px;
+    background: #f5f1ea;
+    padding: 90px 0;
+    text-align: center;
 
 }
 
-.hero-galeria p{
+.hero-galeria h1 {
 
-    max-width:700px;
-    margin:auto;
-    font-size:22px;
-    color:#666;
-    line-height:1.8;
+    font-size: 60px;
+    font-family: "Bree Serif";
+    margin-bottom: 20px;
 
 }
-/* ======================================
-   TÍTULO HALLOWEEN
-====================================== */
+
+.hero-galeria p {
+
+    max-width: 700px;
+    margin: auto;
+    font-size: 22px;
+    color: #666;
+    line-height: 1.8;
+
+}
+
+
+/*======================================
+TÍTULO HALLOWEEN
+======================================*/
 
 .titulo-halloween {
 
     margin: 25px 0 20px;
 
     display: flex;
-
     flex-direction: column;
-
     align-items: center;
-
     justify-content: center;
 
     gap: 2px;
@@ -61,8 +60,8 @@ GALERIA SAPACREW
     line-height: 1;
 
     text-shadow:
-        0 4px 15px rgba(0,0,0,.9),
-        0 0 25px rgba(130,40,180,.7);
+        0 4px 15px rgba(0, 0, 0, .9),
+        0 0 25px rgba(130, 40, 180, .7);
 
 }
 
@@ -74,7 +73,6 @@ GALERIA SAPACREW
     display: block;
 
     width: 430px;
-
     max-width: 75vw;
 
     height: auto;
@@ -82,280 +80,285 @@ GALERIA SAPACREW
     margin-top: 0;
 
     filter:
-        drop-shadow(0 6px 10px rgba(0,0,0,.9))
-        drop-shadow(0 0 18px rgba(255,90,0,.25));
+        drop-shadow(0 6px 10px rgba(0, 0, 0, .9))
+        drop-shadow(0 0 18px rgba(255, 90, 0, .25));
 
 }
 
 
-/*======================
+/*======================================
 ÁLBUNS
-======================*/
+======================================*/
 
-.albuns{
+.albuns {
 
-    padding:80px 0;
-    background:#f5f1ea;
+    padding: 80px 0;
 
-}
-
-.albuns h2{
-
-    font-size:42px;
-    font-family:"Bree Serif";
-    margin-bottom:35px;
+    background: #f5f1ea;
 
 }
 
-.titulo-eventos{
+.albuns h2 {
 
-    margin-bottom:35px;
+    font-size: 42px;
 
-}
+    font-family: "Bree Serif";
 
-.titulo-eventos h2{
-
-    margin-bottom:10px;
+    margin-bottom: 35px;
 
 }
 
-.titulo-eventos p{
+.titulo-eventos {
 
-    color:#666;
-
-    font-size:18px;
-
-    margin-bottom:0;
+    margin-bottom: 35px;
 
 }
 
-.titulo-eventos.realizados{
+.titulo-eventos h2 {
 
-    margin-top:80px;
-
-}
-
-.albuns-grid{
-
-    display:grid;
-
-    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-
-    gap:35px;
+    margin-bottom: 10px;
 
 }
 
-/*======================
+.titulo-eventos p {
+
+    color: #666;
+
+    font-size: 20px;
+
+    font-family: "Bree Serif";
+
+    margin-bottom: 0;
+
+}
+
+.titulo-eventos.realizados {
+
+    margin-top: 80px;
+
+}
+
+.albuns-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+    gap: 35px;
+
+}
+
+
+/*======================================
 CARD
-======================*/
+======================================*/
 
-.album-card{
+.album-card {
 
-    background:white;
+    position: relative;
 
-    border-radius:22px;
+    background: white;
 
-    overflow:hidden;
+    border-radius: 22px;
 
-    box-shadow:var(--sombra);
+    overflow: hidden;
 
-    transition:.35s;
+    box-shadow: var(--sombra);
 
-    display:flex;
+    transition: .35s;
 
-    flex-direction:column;
+    display: flex;
 
-    text-decoration:none;
+    flex-direction: column;
 
-    color:inherit;
+    text-decoration: none;
 
-}
-
-.album-card:hover{
-
-    transform:none;
+    color: inherit;
 
 }
 
-/*======================
+.album-card:hover {
+
+    transform: none;
+
+}
+
+
+/*======================================
 IMAGEM
-======================*/
+======================================*/
 
-.album-card img{
+.album-card img {
 
-    width:100%;
+    width: 100%;
 
-    height:260px;
+    height: 260px;
 
-    object-fit:cover;
+    object-fit: cover;
 
-    object-position:center;
+    object-position: center;
 
-    transition:.3s;
+    transition: .3s;
+
+}
+
+.album-card:hover img {
+
+    transform: scale(1.08);
 
 }
 
-.album-card:hover img{
 
-    transform:scale(1.08);
-
-}
-.titulo-eventos p{
-    font-size:20px;
-    font-family:"Bree Serif";
-
-}
-/*======================
+/*======================================
 INFORMAÇÕES
-======================*/
+======================================*/
 
-.album-info{
+.album-info {
 
-    padding:28px;
-
-}
-
-.album-info h3{
-
-    font-size:30px;
-
-    font-family:"Bree Serif";
-
-    margin:15px 0;
+    padding: 28px;
 
 }
 
-.album-info p{
+.album-info h3 {
 
-    color:#666;
+    font-size: 30px;
 
-    line-height:1.8;
+    font-family: "Bree Serif";
 
-    margin-top:10px;
+    margin: 15px 0;
 
 }
 
-/*======================
+.album-info p {
+
+    color: #666;
+
+    line-height: 1.8;
+
+    margin-top: 10px;
+
+}
+
+
+/*======================================
 BOTÃO
-======================*/
+======================================*/
 
-.album-info button{
+.album-info button {
 
-    margin-top:25px;
+    margin-top: 25px;
 
-    width:100%;
+    width: 100%;
 
-    background:var(--laranja);
+    background: var(--laranja);
 
-    color:white;
+    color: white;
 
-    padding:15px;
+    padding: 15px;
 
-    border-radius:12px;
+    border-radius: 12px;
 
-    font-weight:bold;
+    font-weight: bold;
 
-    font-size:16px;
+    font-size: 16px;
 
-    transition:.3s;
-
-}
-
-.album-info button:hover{
-
-    background:#111;
+    transition: .3s;
 
 }
 
-/*======================
+.album-info button:hover {
+
+    background: #111;
+
+}
+
+
+/*======================================
 TAG
-======================*/
+======================================*/
 
-.categoria{
+.categoria {
 
-    display:inline-flex;
+    display: inline-flex;
 
-    padding:8px 16px;
+    padding: 8px 16px;
 
-    border-radius:50px;
+    border-radius: 50px;
 
-    background:#d62d20;
+    background: #d62d20;
 
-    color:white;
+    color: white;
 
-    font-size:13px;
+    font-size: 13px;
 
-    font-weight:bold;
+    font-weight: bold;
 
 }
 
-/*======================
+
+/*======================================
 BLOQUEADO
-======================*/
+======================================*/
 
-.bloqueado{
+.bloqueado {
 
-    opacity:.75;
-
-}
-
-.bloqueado:hover{
-
-    transform:none;
+    opacity: .75;
 
 }
 
-.bloqueado:hover img{
+.bloqueado:hover {
 
-    transform:none;
+    transform: none;
 
 }
 
-/*======================
+.bloqueado:hover img {
+
+    transform: none;
+
+}
+
+
+/*======================================
 EFEITO BRILHO
-======================*/
+======================================*/
 
-.album-card{
+.album-card::before {
 
-    position:relative;
+    content: "";
 
-}
+    position: absolute;
 
-.album-card::before{
+    left: -120%;
 
-    content:"";
+    top: 0;
 
-    position:absolute;
+    width: 80px;
 
-    left:-120%;
+    height: 100%;
 
-    top:0;
+    background: rgba(255, 255, 255, .35);
 
-    width:80px;
+    transform: skew(-20deg);
 
-    height:100%;
+    transition: .8s;
 
-    background:rgba(255,255,255,.35);
-
-    transform:skew(-20deg);
-
-    transition:.8s;
-
-    z-index:2;
+    z-index: 2;
 
 }
 
-.album-card:hover::before{
+.album-card:hover::before {
 
-    left:140%;
+    left: 140%;
 
 }
 
-/*======================
+
+/*======================================
 RODAPÉ
-======================*/
+======================================*/
 
-footer{
+footer {
 
     background:
         linear-gradient(
@@ -363,11 +366,20 @@ footer{
             rgba(10, 4, 20, .94)
         );
 
-    color:white;
+    color: white;
 
-    text-align:center;
+    text-align: center;
 
-    padding:35px 0;
+    padding: 35px 0;
+
+}
+
+
+.arraia-footer, 
+.eventos-footer, 
+.milly-footer{
+    background:#F8F5EF;
+    color: #222;
 
 }
 
@@ -393,8 +405,6 @@ CONFIRMAÇÃO DE PRESENÇA
 
     background-position: center;
 
-    
-
 }
 
 .confirmacao-box {
@@ -412,10 +422,10 @@ CONFIRMAÇÃO DE PRESENÇA
     text-align: center;
 
     box-shadow:
-        0 20px 60px rgba(0,0,0,.55);
+        0 20px 60px rgba(0, 0, 0, .55);
 
     border:
-        1px solid rgba(177,91,255,.35);
+        1px solid rgba(177, 91, 255, .35);
 
     backdrop-filter: blur(8px);
 
@@ -423,90 +433,95 @@ CONFIRMAÇÃO DE PRESENÇA
 
 }
 
-.confirmacao-emoji{
+.confirmacao-emoji {
 
-    font-size:55px;
+    font-size: 55px;
 
-    display:block;
+    display: block;
 
-    margin-bottom:15px;
-
-}
-
-.confirmacao-box h2{
-
-    font-family:"Bree Serif";
-
-    font-size:40px;
-
-    margin-bottom:15px;
+    margin-bottom: 15px;
 
 }
 
-.confirmacao-box > p{
-    max-width:550px;
-    margin:0 auto;
+.confirmacao-box h2 {
+
+    font-family: "Bree Serif";
+
+    font-size: 40px;
+
+    margin-bottom: 15px;
+
+}
+
+.confirmacao-box > p {
+
+    max-width: 550px;
+
+    margin: 0 auto;
+
     color: #ddd;
-    line-height:1.7;
-    font-size:18px;
+
+    line-height: 1.7;
+
+    font-size: 18px;
 
 }
 
-.contador-presenca{
+.contador-presenca {
 
-    margin:30px 0;
+    margin: 30px 0;
 
-    display:flex;
+    display: flex;
 
-    flex-direction:column;
+    flex-direction: column;
 
-    align-items:center;
-
-}
-
-.contador-presenca strong{
-
-    font-size:45px;
-
-    font-family:"Bree Serif";
-
-    color:var(--laranja);
+    align-items: center;
 
 }
 
-.contador-presenca span{
+.contador-presenca strong {
+
+    font-size: 45px;
+
+    font-family: "Bree Serif";
+
+    color: var(--laranja);
+
+}
+
+.contador-presenca span {
 
     color: #cfc6d8;
 
 }
 
-.botao-confirmar{
+.botao-confirmar {
 
-    border:none;
+    border: none;
 
-    background:var(--laranja);
+    background: var(--laranja);
 
-    color:white;
+    color: white;
 
-    padding:16px 35px;
+    padding: 16px 35px;
 
-    border-radius:12px;
+    border-radius: 12px;
 
-    font-size:17px;
+    font-size: 17px;
 
-    font-weight:bold;
+    font-weight: bold;
 
-    cursor:pointer;
+    cursor: pointer;
 
-    transition:.3s;
+    transition: .3s;
 
 }
 
-.botao-confirmar:hover{
+.botao-confirmar:hover {
 
-    background:#111;
+    background: #111;
 
-    transform:translateY(-2px);
+    transform: translateY(-2px);
 
 }
 
@@ -515,185 +530,254 @@ CONFIRMAÇÃO DE PRESENÇA
 MODAL
 ======================================*/
 
-.modal-confirmacao{
+.modal-confirmacao {
 
-    position:fixed;
+    position: fixed;
 
-    inset:0;
+    inset: 0;
 
-    background:rgba(0,0,0,.7);
+    background: rgba(0, 0, 0, .7);
 
-    display:none;
+    display: none;
 
-    justify-content:center;
+    justify-content: center;
 
-    align-items:center;
+    align-items: center;
 
-    padding:20px;
+    padding: 20px;
 
-    z-index:99999;
-
-}
-
-.modal-confirmacao.ativo{
-
-    display:flex;
+    z-index: 99999;
 
 }
 
-.modal-confirmacao-conteudo{
+.modal-confirmacao.ativo {
 
-    position:relative;
-
-    width:100%;
-
-    max-width:480px;
-
-    background:white;
-
-    border-radius:25px;
-
-    padding:45px;
-
-    text-align:center;
-
-    box-shadow:0 20px 60px rgba(0,0,0,.3);
+    display: flex;
 
 }
-
-.fechar-confirmacao{
-
-    position:absolute;
-
-    top:15px;
-
-    right:20px;
-
-    border:none;
-
-    background:none;
-
-    font-size:35px;
-
-    cursor:pointer;
-
-    color:#555;
-
-}
-
-.modal-icone{
-
-    font-size:50px;
-
-    margin-bottom:10px;
-
-}
-
-.modal-confirmacao-conteudo h2{
-
-    font-family:"Bree Serif";
-
-    font-size:34px;
-
-    margin-bottom:10px;
-
-}
-
-.modal-confirmacao-conteudo > p{
-
-    color:#666;
-
-    margin-bottom:25px;
-
-}
-
-.modal-confirmacao-conteudo label{
-
-    display:block;
-
-    text-align:left;
-
-    font-weight:bold;
-
-    margin-bottom:8px;
-
-}
-
-.modal-confirmacao-conteudo input{
-
-    width:100%;
-
-    padding:15px;
-
-    border:2px solid #ddd;
-
-    border-radius:10px;
-
-    font-size:16px;
-
-    outline:none;
-
-    margin-bottom:20px;
-
-}
-
-.modal-confirmacao-conteudo input:focus{
-
-    border-color:var(--laranja);
-
-}
-
-.botao-enviar-confirmacao{
-
-    width:100%;
-
-    padding:15px;
-
-    border:none;
-
-    border-radius:10px;
-
-    background:var(--laranja);
-
-    color:white;
-
-    font-weight:bold;
-
-    font-size:16px;
-
-    cursor:pointer;
-
-}
-
-.botao-enviar-confirmacao:hover{
-
-    background:#111;
-
-}
-
-.mensagem-confirmacao{
-
-    margin-top:20px;
-
-    font-weight:bold;
-
-}
-
-/* ======================================
-   MODAL HALLOWEEN
-====================================== */
 
 .modal-confirmacao-conteudo {
 
+    position: relative;
+
+    width: 100%;
+
     max-width: 500px;
+
+    background: white;
+
+    border-radius: 25px;
+
+    padding: 45px;
+
+    text-align: center;
+
+    box-shadow: 0 20px 60px rgba(0, 0, 0, .3);
 
     border: 3px solid #111;
 
-    animation:
-        aparecerModal .25s ease;
+    animation: aparecerModal .25s ease;
 
 }
 
+.fechar-confirmacao {
+
+    position: absolute;
+
+    top: 15px;
+
+    right: 20px;
+
+    border: none;
+
+    background: none;
+
+    font-size: 35px;
+
+    cursor: pointer;
+
+    color: #555;
+
+}
+
+.modal-icone {
+
+    font-size: 50px;
+
+    margin-bottom: 10px;
+
+}
+
+.modal-confirmacao-conteudo h2 {
+
+    font-family: "Bree Serif";
+
+    font-size: 34px;
+
+    margin-bottom: 10px;
+
+}
+
+.modal-confirmacao-conteudo > p {
+
+    color: #666;
+
+    margin-bottom: 25px;
+
+}
+
+.modal-confirmacao-conteudo label {
+
+    display: block;
+
+    text-align: left;
+
+    font-weight: bold;
+
+    margin-bottom: 8px;
+
+}
+
+.modal-confirmacao-conteudo input {
+
+    box-sizing: border-box;
+
+    width: 100%;
+
+    padding: 15px;
+
+    border: 2px solid #ddd;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+
+    outline: none;
+
+    margin-bottom: 20px;
+
+    background: #fafafa;
+
+    transition: .2s;
+
+}
+
+.modal-confirmacao-conteudo input:focus {
+
+    background: white;
+
+    border-color: var(--laranja);
+
+    box-shadow:
+        0 0 0 4px rgba(214, 45, 32, .10);
+
+}
+
+.botao-enviar-confirmacao {
+
+    width: 100%;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: var(--laranja);
+
+    color: white;
+
+    font-weight: bold;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: .25s;
+
+}
+
+.botao-enviar-confirmacao:hover {
+
+    background: #111;
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, .15);
+
+}
+
+.botao-enviar-confirmacao:disabled {
+
+    opacity: .6;
+
+    cursor: wait;
+
+    transform: none;
+
+}
+
+.mensagem-confirmacao {
+
+    min-height: 24px;
+
+    margin-top: 20px;
+
+    font-weight: bold;
+
+    color: var(--laranja);
+
+}
+
+.modal-tag {
+
+    display: inline-block;
+
+    background: #111;
+
+    color: white;
+
+    padding: 7px 14px;
+
+    border-radius: 50px;
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: .5px;
+
+    margin-bottom: 15px;
+
+}
+
+.modal-descricao {
+
+    color: #666;
+
+    line-height: 1.7;
+
+    margin-bottom: 28px;
+
+}
+
+.modal-aviso {
+
+    display: block;
+
+    margin-top: 20px;
+
+    color: #999;
+
+    line-height: 1.5;
+
+}
+
+
+/*======================================
+ANIMAÇÃO MODAL
+======================================*/
 
 @keyframes aparecerModal {
 
@@ -720,132 +804,9 @@ MODAL
 }
 
 
-/* TAG */
-
-.modal-tag {
-
-    display: inline-block;
-
-    background: #111;
-
-    color: white;
-
-    padding: 7px 14px;
-
-    border-radius: 50px;
-
-    font-size: 11px;
-
-    font-weight: 800;
-
-    letter-spacing: .5px;
-
-    margin-bottom: 15px;
-
-}
-
-
-/* DESCRIÇÃO */
-
-.modal-descricao {
-
-    color: #666;
-
-    line-height: 1.7;
-
-    margin-bottom: 28px;
-
-}
-
-
-/* INPUT */
-
-.modal-confirmacao-conteudo input {
-
-    box-sizing: border-box;
-
-    background: #fafafa;
-
-    border: 2px solid #ddd;
-
-    transition: .2s;
-
-}
-
-
-.modal-confirmacao-conteudo input:focus {
-
-    background: white;
-
-    border-color: var(--laranja);
-
-    box-shadow:
-        0 0 0 4px
-        rgba(214,45,32,.10);
-
-}
-
-
-/* BOTÃO */
-
-.botao-enviar-confirmacao {
-
-    transition: .25s;
-
-}
-
-
-.botao-enviar-confirmacao:hover {
-
-    transform:
-        translateY(-2px);
-
-    box-shadow:
-        0 8px 20px
-        rgba(0,0,0,.15);
-
-}
-
-
-.botao-enviar-confirmacao:disabled {
-
-    opacity: .6;
-
-    cursor: wait;
-
-    transform: none;
-
-}
-
-
-/* MENSAGEM */
-
-.mensagem-confirmacao {
-
-    min-height: 24px;
-
-    color: var(--laranja);
-
-}
-
-
-/* AVISO */
-
-.modal-aviso {
-
-    display: block;
-
-    margin-top: 20px;
-
-    color: #999;
-
-    line-height: 1.5;
-
-}
-
-/* ======================================
-   PÓS EVENTO
-====================================== */
+/*======================================
+PÓS EVENTO
+======================================*/
 
 .pos-evento {
 
@@ -856,7 +817,6 @@ MODAL
     background: #f5f1ea;
 
 }
-
 
 .pos-evento-box {
 
@@ -876,7 +836,6 @@ MODAL
 
 }
 
-
 .pos-evento-emoji {
 
     display: block;
@@ -887,7 +846,6 @@ MODAL
 
 }
 
-
 .pos-evento-box h2 {
 
     font-family: "Bree Serif";
@@ -897,7 +855,6 @@ MODAL
     margin: 20px 0 15px;
 
 }
-
 
 .pos-evento-box p {
 
@@ -910,7 +867,6 @@ MODAL
     margin-bottom: 30px;
 
 }
-
 
 .botao-galeria {
 
@@ -932,7 +888,6 @@ MODAL
 
 }
 
-
 .botao-galeria:hover {
 
     background: #111;
@@ -942,7 +897,791 @@ MODAL
 }
 
 
-@media(max-width:768px) {
+/*======================================
+LISTA DE CONFIRMADAS
+======================================*/
+
+.lista-confirmadas {
+
+    margin-top: 30px;
+
+    text-align: center;
+
+}
+
+.lista-confirmadas h3 {
+
+    margin-bottom: 15px;
+
+    color: white;
+
+}
+
+.pessoa-confirmada {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 8px;
+
+    padding: 8px 12px;
+
+}
+
+
+/*======================================
+AÇÕES DA CONFIRMAÇÃO
+======================================*/
+
+.acoes-confirmacao {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+    margin-top: 15px;
+
+}
+
+.botao-alterar,
+.botao-cancelar {
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-weight: 700;
+
+}
+
+.botao-alterar {
+
+    background: #d96a1d;
+
+    color: white;
+
+}
+
+.botao-cancelar {
+
+    background: #eee;
+
+    color: #a33;
+
+}
+
+.botao-alterar:hover,
+.botao-cancelar:hover {
+
+    opacity: .85;
+
+}
+
+
+/*======================================
+GALERIA DO EVENTO
+======================================*/
+
+/*
+    TEMA NORMAL
+    Usado por Milly e Arraiá
+*/
+
+.hero-evento {
+
+    position: relative;
+
+    min-height: 650px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 100px 0;
+
+    background: #f5f1ea;
+
+    color: #222;
+
+}
+
+.hero-evento .container {
+
+    position: relative;
+
+    z-index: 2;
+
+}
+
+
+/*======================================
+HERO NORMAL - MILLY / ARRAIÁ
+======================================*/
+
+.galeria-milly .hero-evento,
+.galeria-arraia .hero-evento {
+
+    min-height: 450px;
+
+    background:
+        linear-gradient(
+            rgba(245, 241, 234, .88),
+            rgba(245, 241, 234, .96)
+        );
+
+    color: #222;
+    
+
+}
+
+.galeria-milly .hero-evento h1,
+.galeria-arraia .hero-evento h1 {
+
+    color: #222;
+    font-size: 60px;
+    line-height: 1.1;
+    font-family: "Bree Serif";
+
+    text-shadow:
+        0 3px 12px rgba(0, 0, 0, .12);
+    
+        padding-top: 30px;
+    
+
+}
+
+.galeria-milly .hero-evento p,
+.galeria-arraia .hero-evento p {
+
+    color: #555;
+    font-size: 20px;
+
+    text-shadow: none;
+    padding-top: 30px;
+
+}
+
+
+/*======================================
+TEMA HALLOWEEN - HERO
+======================================*/
+
+.galeria-halloween .hero-evento {
+
+    background-image:
+        linear-gradient(
+            rgba(10, 4, 20, .35),
+            rgba(10, 4, 20, .65)
+        ),
+        url("../img/eventos/halloween/fundo-halloween.png");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-attachment: fixed;
+
+    color: white;
+
+}
+
+.galeria-halloween .hero-evento .categoria {
+
+    background: #d96a1d;
+
+    box-shadow:
+        0 0 20px rgba(217, 106, 29, .45);
+
+}
+
+.galeria-halloween .hero-evento h1 {
+
+    font-size: 64px;
+
+    margin: 20px 0;
+
+    font-family: "Bree Serif";
+
+    color: white;
+
+    text-shadow:
+        0 4px 20px rgba(0, 0, 0, .8);
+
+}
+
+.galeria-halloween .hero-evento p {
+
+    max-width: 800px;
+
+    margin: auto;
+
+    font-size: 22px;
+
+    line-height: 1.8;
+
+    color: #f1eafa;
+
+    text-shadow:
+        0 2px 10px rgba(0, 0, 0, .8);
+
+}
+
+
+/*======================================
+INFORMAÇÕES DO EVENTO
+======================================*/
+
+.info-evento {
+
+    padding: 70px 0;
+
+    background: #f5f1ea;
+
+}
+
+
+/* MILLY / ARRAIÁ */
+
+.galeria-milly .info-evento,
+.galeria-arraia .info-evento {
+
+    background: #f5f1ea;
+
+}
+
+
+
+/* HALLOWEEN */
+
+.galeria-halloween .info-evento {
+
+    background:
+        linear-gradient(
+            rgba(10, 4, 20, .94),
+            rgba(10, 4, 20, .94)
+        ),
+        url("../img/eventos/halloween/fundo-halloween.png");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-attachment: fixed;
+
+}
+
+
+/*======================================
+GRID DE INFORMAÇÕES
+======================================*/
+
+.info-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 30px;
+
+}
+
+.info-grid div {
+
+    background: white;
+
+    border-radius: 20px;
+
+    padding: 30px;
+
+    text-align: center;
+
+    color: #222;
+
+    box-shadow: var(--sombra);
+
+}
+
+
+/* HALLOWEEN - CARDS */
+
+.galeria-halloween .info-grid div {
+
+    background: rgba(10, 4, 20, .72);
+
+    border:
+        1px solid rgba(177, 91, 255, .35);
+
+    backdrop-filter: blur(8px);
+
+    color: white;
+
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, .45);
+
+}
+
+.info-grid h3 {
+
+    color: var(--laranja);
+
+    margin-bottom: 12px;
+
+}
+
+
+/*======================================
+TEXTO DO EVENTO
+======================================*/
+
+.texto-evento {
+
+    padding: 80px 0;
+
+    background: white;
+
+    color: #222;
+
+}
+
+
+/* MILLY / ARRAIÁ */
+
+.galeria-milly .texto-evento,
+.galeria-arraia .texto-evento {
+
+    background: #ffffff;
+
+    color: #222;
+
+}
+
+
+/* HALLOWEEN */
+
+.galeria-halloween .texto-evento {
+
+    background-image:
+        linear-gradient(
+            rgba(8, 2, 18, .70),
+            rgba(8, 2, 18, .85)
+        ),
+        url("../img/eventos/halloween/sobre-halloween.png");
+
+    background-size: cover;
+
+    background-position: center;
+
+    color: white;
+
+}
+
+.texto-evento h2 {
+
+    font-family: "Bree Serif";
+
+    font-size: 42px;
+
+    margin-bottom: 25px;
+
+}
+
+.texto-evento p {
+
+    max-width: 900px;
+
+    line-height: 2;
+
+    color: inherit;
+
+}
+
+
+/*======================================
+FOTOS
+======================================*/
+
+.fotos-evento {
+
+    padding: 80px 0;
+
+    background: #f5f1ea;
+
+}
+
+.grid-fotos {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 18px;
+
+}
+
+.foto {
+
+    border-radius: 18px;
+
+    overflow: hidden;
+
+    box-shadow: var(--sombra);
+
+    cursor: pointer;
+
+}
+
+.foto img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: .45s;
+
+}
+
+.foto:hover img {
+
+    transform: scale(1.08);
+
+}
+
+.destaque {
+
+    grid-column: span 3;
+
+    height: 600px;
+
+}
+
+.foto:not(.destaque) {
+
+    height: 260px;
+
+}
+
+
+/*======================================
+LIGHTBOX
+======================================*/
+
+.lightbox {
+
+    position: fixed;
+
+    inset: 0;
+
+    background: rgba(15, 15, 15, .96);
+
+    display: none;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 40px;
+
+    z-index: 9999;
+
+}
+
+.lightbox.ativo {
+
+    display: flex;
+
+}
+
+.lightbox img {
+
+    width: auto;
+
+    height: auto;
+
+    max-width: 85vw;
+
+    max-height: 85vh;
+
+    object-fit: contain;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 20px 50px rgba(0, 0, 0, .45);
+
+}
+
+.fechar {
+
+    position: absolute;
+
+    top: 30px;
+
+    right: 40px;
+
+    color: white;
+
+    font-size: 45px;
+
+    cursor: pointer;
+
+}
+
+.anterior,
+.proxima {
+
+    position: absolute;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    width: 60px;
+
+    height: 60px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background: white;
+
+    font-size: 28px;
+
+    cursor: pointer;
+
+    transition: .3s;
+
+}
+
+.anterior:hover,
+.proxima:hover {
+
+    transform:
+        translateY(-50%)
+        scale(1.08);
+
+}
+
+.anterior {
+
+    left: 8%;
+
+}
+
+.proxima {
+
+    right: 8%;
+
+}
+
+
+/*======================================
+RESPONSIVO
+======================================*/
+
+@media(max-width: 768px) {
+
+    /*==================================
+      HERO GERAL
+    ==================================*/
+
+    .hero-galeria {
+
+        padding: 70px 0;
+
+    }
+
+    .hero-galeria h1 {
+
+        font-size: 30px;
+
+    }
+
+    .hero-galeria p {
+
+        font-size: 18px;
+
+    }
+
+
+    /*==================================
+      ÁLBUNS
+    ==================================*/
+
+    .albuns {
+
+        padding: 60px 0;
+
+    }
+
+    .albuns-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .album-card img {
+
+        height: 230px;
+
+    }
+
+    .album-info {
+
+        padding: 22px;
+
+    }
+
+    .album-info h3 {
+
+        font-size: 26px;
+
+    }
+
+
+    /*==================================
+      HERO DO EVENTO
+    ==================================*/
+
+    .hero-evento {
+
+        min-height: 350px;
+
+        padding: 70px 20px;
+
+        background: #f5f1ea;
+
+        background-attachment: scroll;
+
+    }
+
+
+    /* MILLY / ARRAIÁ */
+
+    .galeria-milly .hero-evento,
+    .galeria-arraia .hero-evento {
+
+        background:
+            linear-gradient(
+                rgba(245, 241, 234, .90),
+                rgba(245, 241, 234, .98)
+            );
+
+    }
+
+
+    /*==================================
+      HALLOWEEN MOBILE
+    ==================================*/
+
+    .galeria-halloween .hero-evento {
+
+        background-image:
+            linear-gradient(
+                rgba(10, 4, 20, .35),
+                rgba(10, 4, 20, .65)
+            ),
+            url("../img/eventos/halloween/fundo-halloween-mobile.png");
+
+        background-size: cover;
+
+        background-position: center;
+
+        background-attachment: scroll;
+
+    }
+
+    .galeria-halloween .hero-evento h1 {
+
+        font-size: 44px;
+
+    }
+
+    .galeria-halloween .hero-evento p {
+
+        font-size: 18px;
+
+    }
+
+
+    /*==================================
+      TÍTULO HALLOWEEN MOBILE
+    ==================================*/
+
+    .titulo-halloween span {
+
+        font-size: 42px;
+
+    }
+
+    .titulo-halloween img {
+
+        width: 320px;
+
+        max-width: 85vw;
+
+    }
+
+
+    /*==================================
+      INFORMAÇÕES
+    ==================================*/
+
+    .info-grid {
+
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+
+    /*==================================
+      CONFIRMAÇÃO
+    ==================================*/
+
+    .confirmacao-box {
+
+        padding: 35px 22px;
+
+    }
+
+    .confirmacao-box h2 {
+
+        font-size: 32px;
+
+    }
+
+
+    /*==================================
+      MODAL
+    ==================================*/
+
+    .modal-confirmacao-conteudo {
+
+        padding: 40px 25px;
+
+    }
+
+
+    /*==================================
+      PÓS EVENTO
+    ==================================*/
 
     .pos-evento-box {
 
@@ -956,563 +1695,81 @@ MODAL
 
     }
 
-}
 
-.titulo-halloween span {
+    /*==================================
+      FOTOS
+    ==================================*/
 
-    font-size: 42px;
+    .grid-fotos {
 
-}
-
-.titulo-halloween img {
-
-    width: 320px;
-
-    max-width: 85vw;
-
-}
-
-/* ======================================
-   LISTA DE CONFIRMADAS
-====================================== */
-
-.lista-confirmadas {
-    margin-top: 30px;
-    text-align: center;
-}
-
-.lista-confirmadas h3 {
-    margin-bottom: 15px;
-    color: white;
-}
-
-.pessoa-confirmada {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-
-    padding: 8px 12px;
-}
-
-
-/* ======================================
-   AÇÕES DA CONFIRMAÇÃO
-====================================== */
-
-.acoes-confirmacao {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-
-    margin-top: 15px;
-}
-
-.botao-alterar,
-.botao-cancelar {
-    width: 100%;
-    padding: 12px;
-
-    border: none;
-    border-radius: 8px;
-
-    cursor: pointer;
-
-    font-weight: 700;
-}
-
-.botao-alterar {
-    background: #d96a1d;
-    color: white;
-}
-
-.botao-cancelar {
-    background: #eee;
-    color: #a33;
-}
-
-.botao-alterar:hover,
-.botao-cancelar:hover {
-    opacity: .85;
-}
-
-/*======================================
-RESPONSIVO
-======================================*/
-
-@media(max-width:768px){
-
-    .confirmacao-box{
-
-        padding:35px 22px;
+        grid-template-columns: 1fr;
 
     }
 
-    .confirmacao-box h2{
+    .destaque {
 
-        font-size:32px;
+        grid-column: auto;
 
-    }
-
-    .modal-confirmacao-conteudo{
-
-        padding:40px 25px;
+        height: 300px;
 
     }
 
-}
-/*======================
-RESPONSIVO
-======================*/
+    .foto {
 
-@media(max-width:768px){
+        height: 230px !important;
 
-.hero-galeria{
+    }
 
-padding:70px 0;
 
-}
+    /*==================================
+      LIGHTBOX
+    ==================================*/
 
-.hero-galeria h1{
+    .lightbox {
 
-font-size:42px;
+        padding: 20px;
 
-}
+    }
 
-.hero-galeria p{
+    .lightbox img {
 
-font-size:18px;
+        max-width: 92vw;
 
-}
+        max-height: 80vh;
 
-.albuns{
+    }
 
-padding:60px 0;
+    .fechar {
 
-}
+        top: 15px;
 
-.albuns-grid{
+        right: 20px;
 
-grid-template-columns:1fr;
+        font-size: 38px;
 
-}
+    }
 
-.album-card img{
+    .anterior,
+    .proxima {
 
-height:230px;
+        width: 45px;
 
-}
+        height: 45px;
 
-.album-info{
+        font-size: 22px;
 
-padding:22px;
+    }
 
-}
+    .anterior {
 
-.album-info h3{
+        left: 3%;
 
-font-size:26px;
+    }
 
-}
+    .proxima {
 
-}
+        right: 3%;
 
-/*==============================
-GALERIA DO EVENTO
-==============================*/
-
-.hero-evento {
-
-    position: relative;
-
-    min-height: 650px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    text-align: center;
-
-    padding: 100px 0;
-
-    background-image:
-        linear-gradient(
-            rgba(10, 4, 20, .35),
-            rgba(10, 4, 20, .65)
-        ),
-        url("../img/eventos/halloween/fundo-halloween.png");
-
-    background-size: cover;
-
-    background-position: center;
-
-    background-attachment: fixed;
-
-    color: white;
-
-}
-
-
-
-
-
-.hero-evento .container {
-    position: relative;
-    z-index: 2;
-}
-
-.hero-evento .categoria {
-
-    background: #d96a1d;
-
-    box-shadow:
-        0 0 20px rgba(217,106,29,.45);
-
-}
-
-.hero-evento h1 {
-
-    font-size: 64px;
-
-    margin: 20px 0;
-
-    font-family: "Bree Serif";
-
-    color: white;
-
-    text-shadow:
-        0 4px 20px rgba(0,0,0,.8);
-
-}
-
-.hero-evento p {
-
-    max-width: 800px;
-
-    margin: auto;
-
-    font-size: 22px;
-
-    line-height: 1.8;
-
-    color: #f1eafa;
-
-    text-shadow:
-        0 2px 10px rgba(0,0,0,.8);
-
-}
-
-.info-evento {
-
-    padding: 70px 0;
-
-    background:
-        linear-gradient(
-            rgba(10, 4, 20, .94),
-            rgba(10, 4, 20, .94)
-        ),
-        url("../img/eventos/halloween/fundo-halloween.png");
-
-    background-size: cover;
-
-    background-attachment: fixed;
-
-}
-
-.info-grid{    
-    background-size: cover;
-    display:grid;
-
-    grid-template-columns:repeat(4,1fr);
-
-    gap:30px;
-
-}
-
-.info-grid div {
-
-    background: rgba(10, 4, 20, .72);
-
-    border: 1px solid rgba(177, 91, 255, .35);
-
-    backdrop-filter: blur(8px);
-
-    border-radius: 20px;
-
-    padding: 30px;
-
-    text-align: center;
-
-    color: white;
-
-    box-shadow:
-        0 15px 40px rgba(0,0,0,.45);
-
-    backdrop-filter: blur(8px);
-
-}
-
-.info-grid h3{
-
-    color:var(--laranja);
-
-    margin-bottom:12px;
-
-}
-
-.texto-evento {
-    background-image:
-        linear-gradient(
-            rgba(8, 2, 18, .70),
-            rgba(8, 2, 18, .85)
-        ),
-        url("../img/eventos/halloween/sobre-halloween.png");
-
-    background-size: cover;
-    background-position: center;
-
-    color: white;
-}
-
-.texto-evento h2{
-
-    font-family:"Bree Serif";
-
-    font-size:42px;
-
-    margin-bottom:25px;
-
-}
-
-.texto-evento p{
-
-    max-width:900px;
-
-    line-height:2;
-
-    color: white;
-
-}
-
-.fotos-evento{
-
-    padding:80px 0;
-
-}
-
-.grid-fotos{
-
-    display:grid;
-
-    grid-template-columns:repeat(3,1fr);
-
-    gap:18px;
-
-}
-
-.foto{
-
-    border-radius:18px;
-
-    overflow:hidden;
-
-    box-shadow:var(--sombra);
-
-    cursor:pointer;
-
-}
-
-.foto img{
-
-    width:100%;
-
-    height:100%;
-
-    object-fit:cover;
-
-    transition:.45s;
-
-}
-
-.foto:hover img{
-
-    transform:scale(1.08);
-
-}
-
-.destaque{
-
-    grid-column:span 3;
-
-    height:600px;
-
-}
-
-.foto:not(.destaque){
-
-    height:260px;
-
-}
-
-@media(max-width:768px){
-
-.hero-evento {
-
-    min-height: 500px;
-
-    padding: 70px 20px;
-
-    background-image:
-        linear-gradient(
-            rgba(10, 4, 20, .35),
-            rgba(10, 4, 20, .65)
-        ),
-        url("../img/eventos/halloween/fundo-halloween-mobile.png");
-
-    background-size: cover;
-
-    background-position: center;
-
-    background-attachment: scroll;
-
-}
-
-.info-grid{
-
-grid-template-columns:1fr 1fr;
-
-}
-
-.grid-fotos{
-
-grid-template-columns:1fr;
-
-}
-
-.destaque{
-
-grid-column:auto;
-
-height:300px;
-
-}
-
-.foto{
-
-height:230px !important;
-
-}
-
-}
-
-
-
-/*==============================
-LIGHTBOX
-==============================*/
-
-.lightbox{
-
-    position:fixed;
-
-    inset:0;
-
-    background:rgba(15,15,15,.96);
-
-    display:none;
-
-    justify-content:center;
-
-    align-items:center;
-
-    padding:40px;
-
-    z-index:9999;
-
-}
-
-.lightbox.ativo{
-
-    display:flex;
-
-}
-
-.lightbox img{
-
-    width:auto;
-
-    height:auto;
-
-    max-width:85vw;
-
-    max-height:85vh;
-
-    object-fit:contain;
-
-    border-radius:15px;
-
-    box-shadow:0 20px 50px rgba(0,0,0,.45);
-
-}
-
-.fechar{
-
-    position:absolute;
-
-    top:30px;
-
-    right:40px;
-
-    color:white;
-
-    font-size:45px;
-
-    cursor:pointer;
-
-}
-
-.anterior,
-.proxima{
-
-    position:absolute;
-
-    top:50%;
-
-    transform:translateY(-50%);
-
-    width:60px;
-
-    height:60px;
-
-    border:none;
-
-    border-radius:50%;
-
-    background:white;
-
-    font-size:28px;
-
-    cursor:pointer;
-
-    transition:.3s;
-
-}
-
-.anterior:hover,
-.proxima:hover{
-
-    transform:translateY(-50%) scale(1.08);
-
-}
-
-.anterior{
-
-    left:8%;
-
-}
-
-.proxima{
-
-    right:8%;
+    }
 
 }
