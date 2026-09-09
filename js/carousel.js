@@ -1,6 +1,34 @@
 const noticias = [
 
-     {
+    {
+        titulo:"💌 ANIVERSÁRIO DA EX FAVORITA GERA DEBATE NO SAPACREW ",
+        resumo: "Uma pergunta aparentemente simples movimentou o grupo e, como já era de se esperar, virou um verdadeiro debate sobre ex, amizade, amor próprio e limites. 👀",
+        texto:  `
+        Uma integrante chegou ao grupo com uma dúvida que parecia simples, mas rapidamente virou debate: 
+        afinal, ela deveria mandar parabéns para sua ex, também sua chamada "ex favorita"?<br><br>
+
+        O detalhe é que a ex está namorando atualmente — e, aparentemente, a atual dela não é muito fã da nossa integrante. 
+        Se é ciúmes, implicância ou apenas antipatia? O grupo não chegou a uma conclusão. 👀<br><br>
+
+        E aí começaram as opiniões.<br>
+
+        Algumas meninas foram categóricas: "Eu não mandaria. É falta de amor próprio."<br>
+
+        Outras defenderam a amizade: "Se vocês são amigas, manda. Qual o problema?"<br>
+
+        Mas também teve quem colocasse as duas na berlinda, defendendo que a integrante e a ex continuam mantendo esse vínculo e que, de certa forma, as duas estariam erradas.<br>
+
+        No fim, uma simples mensagem de aniversário acabou levantando uma questão muito maior:<br>
+        quando existe amizade com uma ex, mandar parabéns é apenas um gesto de carinho ou pode acabar ultrapassando algum limite?<br>
+
+        E você, mandaria parabéns para uma ex favorita que está namorando atualmente? 👀
+    `,
+        imagem: "img/noticias/niver-ex.png",
+        categoria:"👀 TRETA",
+        carrossel: true
+    },
+
+    {
         titulo:"TEM VETERANA DE VOLTA! 🚨",
         resumo: "Depois de um período longe dos holofotes, uma das veteranas mais conhecidas do grupo está oficialmente de volta. 👀💅",
         texto: "Jady retornou ao grupo! E para quem já conhece a figura, sabe que essa volta pode significar uma coisa: movimentação. 😂 <br><br> Com um histórico de participação bastante ativa, a presença de Jady promete trazer de volta conversas, fofocas, opiniões e, quem sabe, aquele velho caos que a gente conhece tão bem. 🍿 <br><br> 👀 A pergunta que fica é: o grupo está preparado para o retorno dessa veterana?",
