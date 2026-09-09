@@ -1154,6 +1154,46 @@ INFORMAÇÕES DO EVENTO
 
 }
 
+/* ======================================
+   BOTÃO GOOGLE MAPS
+====================================== */
+
+.info-local {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.botao-maps {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 10px;
+    padding: 7px 12px;
+
+    background: #f47b20;
+    color: #fff;
+
+    border-radius: 6px;
+
+    font-size: 0.70rem;
+    font-weight: 700;
+
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+}
+
+.botao-maps:hover {
+    background: #d9630e;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.18);
+}
+
 
 /* MILLY / ARRAIÁ */
 
@@ -1289,6 +1329,7 @@ TEXTO DO EVENTO
     color: white;
 
 }
+
 
 .texto-evento h2 {
 
