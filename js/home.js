@@ -9,7 +9,7 @@ const eventos = [
         titulo: "Halloween do Sapacrew",
         data: "10 e 11 de outubro de 2026",
         horario: "18h",
-        endereco: "Em breve informamos o endereço completo",
+        endereco: "Av. Itanhaém, 294 - Jardim Pinheirinho",
         imagem: "img/eventos/halloween/halloween-capa.png",
         descricao:
             "<strong>Preparem as fantasias, porque nos dias 10 e 11 de outubro teremos mais um evento oficial do Sapacrew!</strong> 🎃🕸️"+
@@ -23,7 +23,7 @@ const eventos = [
 
             "🎃 Preparem as fantasias e bora fazer desse Halloween mais um rolê inesquecível do Sapacrew! 🕷️🖤",
         mapa:
-            "https://maps.app.goo.gl/tGM73r2Dihn92ofq5"
+            "https://maps.app.goo.gl/Abvg4gsmLd86xc3t7"
     },
 
     {
