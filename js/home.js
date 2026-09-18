@@ -28,14 +28,21 @@ const eventos = [
 
     {
         titulo: "Próximo rolê",
-        data: "17 de outubro de 2026",
+        data: "16 de outubro de 2026",
         horario: "18h",
-        endereco: "Local ainda não definido",
-        imagem: "img/roles/pendente.jpg",
+        endereco: "R. Mourato Coelho, 861 - Pinheiros",
+        imagem: "img/roles/despedida-milly2.jpeg",
         descricao:
-            "O próximo rolê ainda está sendo definido. Assim que tivermos local e mais informações, a redação atualiza tudo por aqui. 👀",
+            "💜 DESPEDIDA DA MILLY — SAPACREW NO BELLA JAU! 🍻"+
+
+                "<br><br>Tem rolê que é só rolê… e tem aqueles que a gente faz questão de aproveitar cada minuto. 🥹💜" +
+
+                "<br><br>Dessa vez, vamos nos reunir no Bella Jau, em Pinheiros, para colocar a conversa em dia, dar muita risada, brindar aos bons momentos e, claro, fazer uma despedida à altura! ✨"+
+
+                "<br><br>Então chama a galera, escolhe o look e vem curtir essa noite com a gente. Porque despedida boa tem história, fofoca, risada e, provavelmente, alguma coisa que vai parar no grupo no dia seguinte. 😂"+
+                "<br>Bora fazer essa noite valer a pena? 💜🍻",
         mapa:
-            "#"
+            "https://maps.app.goo.gl/Vwi5XnxUvhatRBXs8"
     },
 
     {
