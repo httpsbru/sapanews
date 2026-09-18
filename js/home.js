@@ -31,7 +31,7 @@ const eventos = [
         data: "16 de outubro de 2026",
         horario: "18h",
         endereco: "R. Mourato Coelho, 861 - Pinheiros",
-        imagem: "img/roles/despedida-milly2.jpeg",
+        imagem: "img/roles/despedida-milly2.png",
         descricao:
             "💜 DESPEDIDA DA MILLY — SAPACREW NO BELLA JAU! 🍻"+
 
