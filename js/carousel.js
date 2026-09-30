@@ -25,7 +25,7 @@ const noticias = [
     `,
         imagem: "img/noticias/niver-ex.png",
         categoria:"👀 TRETA",
-        carrossel: true
+        carrossel: false
     },
 
     {
