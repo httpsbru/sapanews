@@ -25,19 +25,27 @@ INTRO
     display: inline-block;
     margin-bottom: 18px;
     padding: 8px 18px;
+
+
     border-radius: 999px;
+
     font-size: 0.8rem;
     font-weight: 800;
     letter-spacing: 1px;
+
     background: rgba(255, 105, 180, 0.12);
+
 
 }
 
 .sapacrew-intro h1 {
     margin: 0 0 18px;
+
     font-family: "Bree Serif", serif;
-    font-size: clamp(2.2rem, 5vw, 4rem);
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
     line-height: 1.05;
+
+
 }
 
 .sapacrew-intro h1 span {
@@ -264,7 +272,10 @@ ESTADOS
 
 .estado-participantes span {
     display: block;
+
+
     margin-bottom: 12px;
+
     font-size: 2rem;
 
 
@@ -278,43 +289,6 @@ ESTADOS
 
 
 }
-
-.participante-curiosidade {
-    margin-top: 18px;
-    padding: 14px 16px;
-    background: #fff8c9;
-    border-radius: 4px;
-    text-align: left;
-    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.08);
-    transform: rotate(-1deg);
-    position: relative;
-}
-
-.participante-curiosidade::before {
-    content: "";
-    position: absolute;
-    top: -6px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 55px;
-    height: 14px;
-    background: rgba(255, 255, 255, 0.75);
-}
-
-.curiosidade-titulo {
-    font-size: 0.75rem;
-    font-weight: 800;
-    letter-spacing: 0.5px;
-    margin-bottom: 8px;
-}
-
-.participante-curiosidade p {
-    margin: 0;
-    font-size: 0.9rem;
-    line-height: 1.45;
-}
-
-
 
 html,
 body {
