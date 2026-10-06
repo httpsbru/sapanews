@@ -9,7 +9,7 @@ const eventos = [
         titulo: "Halloween do Sapacrew",
         data: "10 e 11 de outubro de 2026",
         horario: "18h",
-        endereco: "Av. Itanhaém, 294 - Jardim Pinheirinho",
+        endereco: "R. Um, 35 - Ipelandia, Suzano - SP",
         imagem: "img/eventos/halloween/halloween-capa.png",
         descricao:
             "<strong>Preparem as fantasias, porque nos dias 10 e 11 de outubro teremos mais um evento oficial do Sapacrew!</strong> 🎃🕸️"+
@@ -18,12 +18,12 @@ const eventos = [
             "💰 <strong>Valor estimado:</strong> R$ 50,00 por pessoa<br>" +
             "🥩 <strong>Cada pessoa deverá levar:</strong> 1kg de carne ou algo para assar<br>" +
             "🥤 <strong>Bebida:</strong> cada pessoa deverá levar a bebida que for consumir<br>" +
-            "🏠 <strong>Hospedagem:</strong> a casa ficará liberada até às 18h do domingo, dia 11<br>" +
+            "🏠 <strong>Hospedagem:</strong> a casa ficará liberada até às 07h do domingo, dia 11<br>" +
             "💳 <strong>Pagamento:</strong> deverá ser efetuado até o dia <strong>02/10</strong>.<br><br>" +
 
             "🎃 Preparem as fantasias e bora fazer desse Halloween mais um rolê inesquecível do Sapacrew! 🕷️🖤",
         mapa:
-            "https://maps.app.goo.gl/Abvg4gsmLd86xc3t7"
+            "https://maps.app.goo.gl/7gFBsSdr2cheR7W47"
     },
 
     {
@@ -443,4 +443,3 @@ document.addEventListener(
 
     }
 );
-
