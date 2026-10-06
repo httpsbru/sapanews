@@ -1,0 +1,435 @@
+/*======================================
+REGRINHAS DA SAPACREW
+======================================*/
+
+
+.pagina-regrinhas{
+
+    background:
+    linear-gradient(
+        rgba(248,245,239,.92),
+        rgba(248,245,239,.92)
+    );
+
+    min-height:100vh;
+
+}
+
+
+.regrinhas{
+
+    padding:80px 0;
+
+}
+
+
+/*======================================
+CARD PRINCIPAL
+======================================*/
+
+.regrinhas-card{
+
+    background:white;
+
+    max-width:950px;
+
+    margin:auto;
+
+    padding:60px;
+
+    border-radius:30px;
+
+    box-shadow:var(--sombra);
+
+}
+
+
+/*======================================
+CABEÇALHO
+======================================*/
+
+.regrinhas-header{
+
+    text-align:center;
+
+    max-width:700px;
+
+    margin:auto;
+
+    padding-bottom:50px;
+
+    border-bottom:2px solid #ece8df;
+
+}
+
+
+.regrinhas-tag{
+
+    display:inline-block;
+
+    background:var(--preto);
+
+    color:white;
+
+    padding:9px 18px;
+
+    border-radius:50px;
+
+    font-size:13px;
+
+    font-weight:700;
+
+    letter-spacing:.5px;
+
+    margin-bottom:20px;
+
+}
+
+
+.regrinhas-header h1{
+
+    font-family:"Bree Serif", serif;
+
+    font-size:clamp(2.5rem, 6vw, 4.5rem);
+
+    color:var(--preto);
+
+    margin-bottom:20px;
+
+}
+
+
+.regrinhas-header p{
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    color:#666;
+
+}
+
+
+/*======================================
+LISTA DE REGRAS
+======================================*/
+
+.regras-lista{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+    margin-top:45px;
+
+}
+
+
+.regra{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+
+    background:var(--cinza2);
+
+    padding:20px 25px;
+
+    border-radius:18px;
+
+    transition:.3s;
+
+}
+
+
+.regra:hover{
+
+    transform:translateX(8px);
+
+}
+
+
+.regra span{
+
+    min-width:42px;
+
+    height:42px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:var(--laranja);
+
+    color:white;
+
+    border-radius:50%;
+
+    font-weight:800;
+
+}
+
+
+.regra p{
+
+    font-size:17px;
+
+    line-height:1.5;
+
+    font-weight:600;
+
+}
+
+
+/*======================================
+CASAIS
+======================================*/
+
+.casais{
+
+    margin-top:70px;
+
+    padding-top:50px;
+
+    border-top:2px solid #ece8df;
+
+}
+
+
+.casais-titulo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+    margin-bottom:35px;
+
+}
+
+
+.casais-titulo > span{
+
+    width:65px;
+
+    height:65px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:#fff0e7;
+
+    border-radius:20px;
+
+    font-size:32px;
+
+}
+
+
+.casais-titulo h2{
+
+    font-family:"Bree Serif", serif;
+
+    font-size:38px;
+
+}
+
+
+.casais-titulo p{
+
+    color:#777;
+
+    margin-top:5px;
+
+}
+
+
+.casais-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+}
+
+
+.casal-card{
+
+    background:var(--cinza2);
+
+    padding:30px;
+
+    border-radius:22px;
+
+    text-align:center;
+
+    border:2px solid transparent;
+
+    transition:.3s;
+
+}
+
+
+.casal-card:hover{
+
+    transform:translateY(-7px);
+
+    border-color:var(--laranja);
+
+}
+
+
+.coracao{
+
+    font-size:35px;
+
+    margin-bottom:15px;
+
+}
+
+
+.casal-card h3{
+
+    font-family:"Bree Serif", serif;
+
+    font-size:27px;
+
+    margin-bottom:12px;
+
+}
+
+
+.casal-card span{
+
+    display:inline-block;
+
+    background:var(--laranja);
+
+    color:white;
+
+    padding:7px 15px;
+
+    border-radius:50px;
+
+    font-size:13px;
+
+    font-weight:bold;
+
+}
+
+
+/*======================================
+RODAPÉ DA PÁGINA
+======================================*/
+
+.regrinhas-footer{
+
+    margin-top:60px;
+
+    padding:25px;
+
+    text-align:center;
+
+    background:#111;
+
+    color:white;
+
+    border-radius:18px;
+
+}
+
+
+.regrinhas-footer p{
+
+    line-height:1.7;
+
+    font-size:16px;
+
+}
+
+
+/*======================================
+RESPONSIVO
+======================================*/
+
+@media(max-width:768px){
+
+    .regrinhas{
+
+        padding:40px 0;
+
+    }
+
+
+    .regrinhas-card{
+
+        padding:30px 20px;
+
+        border-radius:22px;
+
+    }
+
+
+    .regrinhas-header h1{
+
+        font-size:42px;
+
+    }
+
+
+    .regrinhas-header p{
+
+        font-size:16px;
+
+    }
+
+
+    .regra{
+
+        padding:18px;
+
+        gap:15px;
+
+    }
+
+
+    .regra p{
+
+        font-size:15px;
+
+    }
+
+
+    .casais-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+    .casais-titulo h2{
+
+        font-size:32px;
+
+    }
+
+
+    .casais-titulo p{
+
+        font-size:14px;
+
+    }
+
+}
