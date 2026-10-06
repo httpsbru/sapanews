@@ -1,10 +1,90 @@
+/* ===========================
+   MOBILE - AJUSTE LOGO HERO
+=========================== */
+
+@media(max-width:768px){
+
+    .hero-content{
+        flex-direction:column;
+        gap:30px;
+        text-align:center;
+    }
+
+
+    .logo{
+        width:300px;
+        height:180px;
+        margin:auto;
+    }
+
+
+    .sapa{
+        font-size:75px;
+        -webkit-text-stroke:3px #111;
+    }
+
+
+    .news{
+        top:20px;
+        right:0;
+        padding:8px 15px;
+        font-size:14px;
+    }
+
+
+    .crew{
+        left:190px;
+        top:75px;
+        width:120px;
+        height:120px;
+    }
+
+
+    .crew span{
+        font-size:40px;
+        -webkit-text-stroke:2px #111;
+    }
+
+
+    .c{
+        left:0;
+        top:0;
+    }
+
+    .r{
+        left:20px;
+        top:30px;
+    }
+
+    .e{
+        left:45px;
+        top:60px;
+    }
+
+    .w{
+        left:75px;
+        top:90px;
+    }
+
+
+    .hero-info h2{
+        font-size:32px;
+    }
+
+
+    .hero p{
+        font-size:17px;
+    }
+
+}
+
 /* ======================================
    HEADER MOBILE
 ====================================== */
 
 @media(max-width:900px){
 
-nav{
+    nav{
         height:65px;
         padding:0;
         display:flex;
@@ -12,18 +92,16 @@ nav{
         justify-content:space-between;
         align-items:center;
         position:relative;
-}
+    }
 
     .logo-menu h2{
         font-size:22px;
     }
 
-
     .menu-mobile{
         display:flex;
         align-items:center;
         justify-content:center;
-        
 
         width:45px;
         height:45px;
@@ -69,75 +147,261 @@ nav{
         display:block;
         width:100%;
         padding:18px 20px;
+    }
+
 }
 
+@media(max-width:768px){
+
+    .urgente-card{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .urgente-img{
+
+        height:280px;
+
+    }
+
+    .urgente-texto{
+
+        padding:20px;
+
+    }
+
+    .urgente-texto h2{
+
+        font-size:30px;
+
+    }
+
+    .subtitulo{
+
+        font-size:17px;
+
+    }
+
 }
-/* ======================================
-   CORREÇÃO FINAL — HEADER MOBILE
-====================================== */
 
-@media (max-width: 900px) {
+/*==================================================
+GALERIA.HTML
+==================================================*/
 
-    nav {
-        height: 65px;
-        padding: 0;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        position: relative;
+@media (max-width: 768px){
+
+    .hero-galeria{
+
+        padding:60px 0;
+
     }
 
-    .logo-menu h2 {
-        font-size: 22px;
+    .hero-galeria h1{
+
+        font-size:38px;
+
     }
 
-    .menu-mobile {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .hero-galeria p{
 
-        width: 45px;
-        height: 45px;
+        font-size:18px;
 
-        background: none;
-        color: white;
+        width:95%;
 
-        font-size: 30px;
-        line-height: 1;
+        margin:auto;
 
-        margin-left: auto;
-        padding: 0;
     }
 
-    nav ul {
-        position: absolute;
-        top: 65px;
-        left: 0;
+    .albuns{
 
-        width: 100%;
+        padding:50px 0;
 
-        background: #111;
-
-        display: none;
-        flex-direction: column;
-        gap: 0;
-
-        box-shadow: 0 15px 25px rgba(0,0,0,.2);
     }
 
-    nav ul.ativo {
-        display: flex;
+    .albuns h2{
+
+        font-size:34px;
+
+        text-align:center;
+
     }
 
-    nav li {
-        width: 100%;
-        border-top: 1px solid rgba(255,255,255,.08);
+    .albuns-grid{
+
+        grid-template-columns:1fr;
+
+        gap:25px;
+
     }
 
-    nav li a {
-        display: block;
-        width: 100%;
-        padding: 18px 20px;
+    .album-card img{
+
+        height:220px;
+
     }
+
+    .album-info{
+
+        padding:20px;
+
+    }
+
+    .album-info h3{
+
+        font-size:26px;
+
+    }
+
 }
+
+
+/*==================================================
+GALERIA ARRAIÁ
+==================================================*/
+
+@media (max-width:768px){
+
+    .hero-evento{
+
+        padding:60px 0;
+
+    }
+
+    .hero-evento h1{
+
+        font-size:36px;
+
+    }
+
+    .hero-evento p{
+
+        width:95%;
+
+        margin:auto;
+
+        font-size:18px;
+
+    }
+
+    .info-grid{
+
+        grid-template-columns:1fr;
+
+        gap:20px;
+
+    }
+
+    .info-grid div{
+
+        padding:22px;
+
+    }
+
+    .texto-evento{
+
+        padding:50px 0;
+
+    }
+
+    .texto-evento h2{
+
+        font-size:32px;
+
+        text-align:center;
+
+    }
+
+    .texto-evento p{
+
+        font-size:17px;
+
+        line-height:1.8;
+
+    }
+
+    .grid-fotos{
+
+        grid-template-columns:1fr;
+
+        gap:15px;
+
+    }
+
+    .destaque{
+
+        grid-column:auto;
+
+        height:250px;
+
+    }
+
+    .foto{
+
+        height:230px !important;
+
+    }
+
+}
+
+
+/*==================================================
+LIGHTBOX
+==================================================*/
+
+@media(max-width:768px){
+
+    .lightbox{
+
+        padding:20px;
+
+    }
+
+    .lightbox img{
+
+        max-width:100%;
+
+        max-height:75vh;
+
+    }
+
+    .anterior,
+    .proxima{
+
+        width:45px;
+
+        height:45px;
+
+        font-size:22px;
+
+    }
+
+    .anterior{
+
+        left:10px;
+
+    }
+
+    .proxima{
+
+        right:10px;
+
+    }
+
+    .fechar{
+
+        top:15px;
+
+        right:20px;
+
+        font-size:36px;
+
+    }
+
+}
+
+/*======================================
+MENU RESPONSIVO
+======================================*/
+
+
