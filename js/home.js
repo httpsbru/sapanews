@@ -5,26 +5,6 @@
 
 const eventos = [
 
-    {
-        titulo: "Halloween do Sapacrew",
-        data: "10 e 11 de outubro de 2026",
-        horario: "18h",
-        endereco: "Av. Itanhaém, 294 - Jardim Pinheirinho",
-        imagem: "img/eventos/halloween/halloween-capa.png",
-        descricao:
-            "<strong>Preparem as fantasias, porque nos dias 10 e 11 de outubro teremos mais um evento oficial do Sapacrew!</strong> 🎃🕸️"+
-            "<br><br>Uma noite para reunir a nossa galera, colocar o papo em dia, dar boas risadas, render algumas fofocas e, quem sabe, criar conteúdo suficiente para virar manchete no SapaNews. 👀📰<br><br>"+
-            "<strong>📌 INFORMAÇÕES IMPORTANTES</strong><br><br>" +
-            "💰 <strong>Valor estimado:</strong> R$ 50,00 por pessoa<br>" +
-            "🥩 <strong>Cada pessoa deverá levar:</strong> 1kg de carne ou algo para assar<br>" +
-            "🥤 <strong>Bebida:</strong> cada pessoa deverá levar a bebida que for consumir<br>" +
-            "🏠 <strong>Hospedagem:</strong> a casa ficará liberada até às 18h do domingo, dia 11<br>" +
-            "💳 <strong>Pagamento:</strong> deverá ser efetuado até o dia <strong>02/10</strong>.<br><br>" +
-
-            "🎃 Preparem as fantasias e bora fazer desse Halloween mais um rolê inesquecível do Sapacrew! 🕷️🖤",
-        mapa:
-            "https://maps.app.goo.gl/Abvg4gsmLd86xc3t7"
-    },
 
     {
         titulo: "Próximo rolê",
@@ -47,8 +27,20 @@ const eventos = [
 
     {
         titulo: "Próximo rolê",
-        data: "24 de outubro de 2026",
-        horario: "19h",
+        data: "23 de outubro de 2026",
+        horario: "18h",
+        endereco: "Local ainda não definido",
+        imagem: "img/roles/pendente.jpg",
+        descricao:
+            "Ainda estamos aguardando informações sobre esse rolê. Em breve teremos novidades!",
+        mapa:
+            "#"
+    },
+
+    {
+        titulo: "Próximo rolê",
+        data: "30 de outubro de 2026",
+        horario: "18h",
         endereco: "Local ainda não definido",
         imagem: "img/roles/pendente.jpg",
         descricao:
