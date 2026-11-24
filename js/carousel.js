@@ -1,42 +1,40 @@
 const noticias = [
 
+    
     {
-        titulo:"💌 ANIVERSÁRIO DA EX FAVORITA GERA DEBATE NO SAPACREW ",
-        resumo: "Uma pergunta aparentemente simples movimentou o grupo e, como já era de se esperar, virou um verdadeiro debate sobre ex, amizade, amor próprio e limites. 👀",
-        texto:  `
-        Uma integrante chegou ao grupo com uma dúvida que parecia simples, mas rapidamente virou debate: 
-        afinal, ela deveria mandar parabéns para sua ex, também sua chamada "ex favorita"?<br><br>
-
-        O detalhe é que a ex está namorando atualmente — e, aparentemente, a atual dela não é muito fã da nossa integrante. 
-        Se é ciúmes, implicância ou apenas antipatia? O grupo não chegou a uma conclusão. 👀<br><br>
-
-        E aí começaram as opiniões.<br>
-
-        Algumas meninas foram categóricas: "Eu não mandaria. É falta de amor próprio."<br>
-
-        Outras defenderam a amizade: "Se vocês são amigas, manda. Qual o problema?"<br>
-
-        Mas também teve quem colocasse as duas na berlinda, defendendo que a integrante e a ex continuam mantendo esse vínculo e que, de certa forma, as duas estariam erradas.<br>
-
-        No fim, uma simples mensagem de aniversário acabou levantando uma questão muito maior:<br>
-        quando existe amizade com uma ex, mandar parabéns é apenas um gesto de carinho ou pode acabar ultrapassando algum limite?<br>
-
-        E você, mandaria parabéns para uma ex favorita que está namorando atualmente? 👀
-    `,
-        imagem: "img/noticias/niver-ex.png",
-        categoria:"👀 TRETA",
-        carrossel: false
+        titulo: "AMIGO ALCOÓLICO JÁ TEM NOMES SORTEADOS! 🍻🚨",
+        resumo: "O sorteio aconteceu! No dia 19 de dezembro, a comunidade vai se reunir para uma troca de presentes regada a cachaça, expectativas e possíveis decepções. 😂",
+        texto: "ATENÇÃO, COMUNIDADE! 🍻 O tão aguardado Amigo Secreto de Cachaça já começou a movimentar os bastidores! O sorteio dos nomes aconteceu ontem e agora cada participante já tem uma missão: descobrir o presente ideal para seu sorteado sem entregar absolutamente nada. 👀 <br><br> O encontro está marcado para o dia 19 de dezembro e promete reunir presentes, bebidas, risadas e aquele nível de organização duvidoso que já conhecemos. 😂 <br><br> 🤫 Os nomes estão definidos, os planos estão em andamento e a única regra é não estragar a surpresa! <br><br> 🍾 Agora queremos saber: quem vai acertar no presente e quem vai protagonizar a maior decepção da noite?",
+        
+        imagem: "img/noticias/amigoalcoolico.png",
+        categoria: "🍻 GIRO SAPACREW",
+        carrossel: true
     },
 
+
+    {
+        titulo:"SOLTEIRA E MAIS CAÓTICA! 🚨💅",
+        resumo: "A adm Jéssica Nobre está oficialmente solteira! E parece que a nova fase vem acompanhada de ainda mais potencial para causar. 👀",
+        texto: "ALERTA NA COMUNIDADE! 🚨 Jéssica Nobre está oficialmente solteira! A administradora agora integra o time das solteiras e, considerando seu histórico de caos, a comunidade já começa a se perguntar o que vem por aí. 😂 <br><br> Se antes já tínhamos motivos para ficar de olho, agora a situação promete ganhar novos capítulos. Mais liberdade, novas possibilidades e, quem sabe, histórias que vão render boas fofocas no grupo. 🍿 <br><br> 💅 Uma coisa é certa: o status mudou, mas o potencial de caos continua intacto! <br><br> 👀 A comunidade está preparada para essa nova versão da Jéssica?",
+        
+        imagem:"img/noticias/nobre.jpeg",
+        categoria:"🚨 EXCLUSIVO",
+        carrossel: true
+        
+    },
+    
+    
     {
         titulo:"TEM VETERANA DE VOLTA! 🚨",
         resumo: "Depois de um período longe dos holofotes, uma das veteranas mais conhecidas do grupo está oficialmente de volta. 👀💅",
         texto: "Jady retornou ao grupo! E para quem já conhece a figura, sabe que essa volta pode significar uma coisa: movimentação. 😂 <br><br> Com um histórico de participação bastante ativa, a presença de Jady promete trazer de volta conversas, fofocas, opiniões e, quem sabe, aquele velho caos que a gente conhece tão bem. 🍿 <br><br> 👀 A pergunta que fica é: o grupo está preparado para o retorno dessa veterana?",
+        
         imagem:"img/noticias/jady.jpeg",
         categoria:"🚨 EXCLUSIVO",
         carrossel: true
         
     },
+
 
     {
         titulo:"E NÃO É QUE DEU NAMORO? 💍 ",
@@ -56,14 +54,6 @@ const noticias = [
 
     },   
 
-    {
-        titulo:"🚨 MAIS UM CASAL OFICIALIZADO ",
-        resumo: "E parece que o amor resolveu dar as caras por aqui. 👀 Nathalia e Ellen também oficializaram o relacionamento e começaram oficialmente a namorar. 💘",
-        texto: "E parece que o amor resolveu dar as caras por aqui. 👀 No dia 8 de agosto de 2026, Nathalia e Ellen também oficializaram o relacionamento e começaram oficialmente a namorar. 💘 O Sapanews confirma: temos mais um casal oficialmente formado.",
-        imagem: "img/noticias/namoro1.jpeg",
-        categoria:"💘 ROMANCE",
-        carrossel: true
-    },
 
     {
         titulo: "A TRETA QUE O SAPANEWS NÃO CONSEGUIU DESENTERRAR 👀",
@@ -84,25 +74,6 @@ const noticias = [
 
         imagem: "img/noticias/treta.jpeg",
         categoria: "👀 TRETA",
-        carrossel: false
-    },
-
-    {
-        titulo:"SAIU, VOLTOU E FINALMENTE FALOU! 🚨 Nath revela motivo por trás de seu afastamento do grupo ",
-        resumo: "Nath finalmente revelou o motivo por trás de seu afastamento do grupo após ser colocada contra a parede durante o famoso Jogo da Discórdia. 👀",
-        texto: `
-            <p>O que começou como uma brincadeira do famoso <strong>“jogo da discórdia”</strong> acabou ficando sério.</p>
-            <p>Durante a rodada de perguntas, Nath foi colocada contra a parede e questionada sobre um assunto que até então parecia não ter explicação: <strong>por que ela havia saído do grupo e depois retornado?</strong></p>
-            <p>A resposta inicialmente veio acompanhada de resistência.</p>
-            <p>Mas, depois da pressão das integrantes, Nath finalmente revelou que havia ficado <strong>chateada com algumas coisas que aconteceram</strong>.</p>
-            <p>Apesar disso, fez questão de deixar claro que não guarda ódio das meninas e que continua gostando delas.</p>
-            <p>A situação ficou ainda mais misteriosa quando Ellen Desoti complementou a resposta falando em <strong>“falta de reciprocidade de algumas pessoas”</strong>.</p>
-            <p>Foi o suficiente para o grupo pedir mais detalhes.</p>
-            <p>Mas, mais uma vez, o SapaCrew entregou apenas a versão <strong>“semi completa”</strong> da fofoca.</p>
-        `,
-
-        imagem: "img/noticias/nath-treta.jpg",
-        categoria:"👀 TRETA",
         carrossel: false
     },
 
