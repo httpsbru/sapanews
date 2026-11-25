@@ -8,29 +8,27 @@ const eventos = [
 
     {
         titulo: "Próximo rolê",
-        data: "16 de outubro de 2026",
+        data: "05 de dezembro de 2026",
         horario: "18h",
-        endereco: "R. Mourato Coelho, 861 - Pinheiros",
-        imagem: "img/roles/despedida-milly2.png",
+        endereco: "pendente",
+        imagem: "#",
         descricao:
-            "💜 DESPEDIDA DA MILLY — SAPACREW NO BELLA JAU! 🍻"+
+            "loading..."+
 
-                "<br><br>Tem rolê que é só rolê… e tem aqueles que a gente faz questão de aproveitar cada minuto. 🥹💜" +
+                "<br><br>Ainda estamos aguardando informações sobre esse rolê. Em breve teremos novidades!" +
 
-                "<br><br>Dessa vez, vamos nos reunir no Bella Jau, em Pinheiros, para colocar a conversa em dia, dar muita risada, brindar aos bons momentos e, claro, fazer uma despedida à altura! ✨"+
+                "<br><br>...",
 
-                "<br><br>Então chama a galera, escolhe o look e vem curtir essa noite com a gente. Porque despedida boa tem história, fofoca, risada e, provavelmente, alguma coisa que vai parar no grupo no dia seguinte. 😂"+
-                "<br>Bora fazer essa noite valer a pena? 💜🍻",
         mapa:
-            "https://maps.app.goo.gl/Vwi5XnxUvhatRBXs8"
+            "#"
     },
 
     {
         titulo: "Próximo rolê",
-        data: "23 de outubro de 2026",
+        data: "12 de dezembro de 2026",
         horario: "18h",
         endereco: "Local ainda não definido",
-        imagem: "img/roles/pendente.jpg",
+        imagem: "#",
         descricao:
             "Ainda estamos aguardando informações sobre esse rolê. Em breve teremos novidades!",
         mapa:
@@ -39,14 +37,16 @@ const eventos = [
 
     {
         titulo: "Próximo rolê",
-        data: "30 de outubro de 2026",
+        data: "19 de dezembro de 2026",
         horario: "18h",
-        endereco: "Local ainda não definido",
-        imagem: "img/roles/pendente.jpg",
+        endereco: "Rua Souza Lima, 81 Barra Funda",
+        imagem: "img/eventos/amigo-alcoolico/amigo-capa.png",
         descricao:
-            "Ainda estamos aguardando informações sobre esse rolê. Em breve teremos novidades!",
+            "Dia 19 de dezembro temos encontro marcado no Bar Bandeira Bandeira para o nosso tão aguardado Amigo Alcoólico! 🎁"+
+            "<br><br>Os nomes já foram sorteados, os destinos já estão traçados e agora só falta reunir as divas para uma noite de presentes, brindes, risadas e histórias que provavelmente não poderão ser contadas no dia seguinte. 😂"+
+            "<br><br>Preparem os presentes e o espírito de confraternização, porque esse role promete",
         mapa:
-            "#"
+            "https://maps.app.goo.gl/qrVQFFah4RP4RQH7A"
     }
 
 ];
